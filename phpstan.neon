@@ -1,0 +1,17 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 6
+
+    paths:
+        - app
+        - database
+        - routes
+
+    # Regle de portabilite n°2 (CLAUDE.md §5) : aucun SQL brut MySQL-only.
+    # Larastan signale l'usage de DB::raw/statement, a examiner manuellement au cas par cas.
+    ignoreErrors: []
+
+    excludePaths:
+        - app/Filament/Resources/*/Pages/*

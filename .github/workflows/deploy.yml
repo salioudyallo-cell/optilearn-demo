@@ -1,0 +1,93 @@
+name: Déploiement LWS — Nimba (elearning)
+
+# Déclenchement 100% manuel : rien ne part tant que vous ne cliquez pas
+# « Run workflow » dans l'onglet Actions de GitHub.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-lws
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build, transfert FTP et finalisation SSH
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      # --- 1. Dépendances PHP : nécessaires au build du thème Filament, qui
+      #        importe des fichiers CSS depuis vendor/. Ce vendor/ reste dans
+      #        le runner (il n'est PAS transféré : le serveur fait son propre
+      #        composer install à l'étape SSH). ---
+      - name: Installation de PHP et Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: intl, bcmath, gd, zip, mbstring, fileinfo, pdo_mysql
+          tools: composer:v2
+          coverage: none
+
+      - name: Dépendances Composer (pour le thème Filament)
+        run: composer install --no-dev --prefer-dist --no-interaction --no-progress
+
+      # --- 2. Construction des assets (le serveur mutualisé n'a pas Node) ---
+      - name: Installation de Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Build des assets (Vite)
+        run: |
+          npm ci
+          npm run build
+
+      # --- 3. Transfert des fichiers par FTP ---
+      # server-dir : le compte FTP LWS de CETTE instance est rooté sur ~/public_html/elearning
+      # (le dossier de l'application Nimba). On dépose donc à la racine FTP : ./
+      # NB : ce compte FTP est DISTINCT de celui de formation (jamais le même).
+      - name: Transfert FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # FTPS explicite instable sur LWS (erreur TLS « decode » sur le canal
+          # de données lors des gros transferts). On utilise FTP simple : le
+          # compte FTP est cloisonné dans ~/public_html/elearning et le .env
+          # n'est jamais transféré. Repassable en ftps pour les petits deltas.
+          protocol: ftp
+          port: 21
+          server-dir: ./
+          timeout: 60000
+          local-dir: ./
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            vendor/**
+            tests/**
+            storage/**
+            bootstrap/cache/**
+            .env
+            .env.*
+            *.md
+            phpunit.xml
+            phpstan.neon
+            pint.json
+            .editorconfig
+            .styleci.yml
+
+      # --- 4. Rappel de finalisation ---
+      # LWS restreint le SSH aux IP autorisées : la finalisation ne peut pas
+      # se faire depuis GitHub. Après ce transfert, lancez en SSH (depuis votre
+      # poste, IP autorisée) :
+      #     bash ~/public_html/elearning/deploy-finalize.sh
+      - name: Rappel — finalisation SSH manuelle
+        run: |
+          echo "::notice title=Finalisation requise::Transfert FTP terminé. Lancez en SSH : bash ~/public_html/elearning/deploy-finalize.sh (composer install + migrate + optimize)."

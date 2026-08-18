@@ -1,0 +1,10 @@
+# Garde-fou racine de l'application (déployé à la racine du projet sur le serveur).
+# Le sous-domaine sert le sous-dossier public/ ; ce fichier protège les fichiers
+# sensibles atteignables via le domaine principal (opti-leads.com/formation/...).
+# LiteSpeed applique aussi ce .htaccess au sous-domaine : on ne bloque donc QUE
+# des extensions absentes de public/ (qui ne sert que css, js, images, polices, index.php).
+Options -Indexes
+
+<FilesMatch "\.(env|log|md|json|lock|yml|yaml|neon|sql|sqlite|pdf|bak|ini|sh)$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,78 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+@theme {
+    --font-sans: 'Sora', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ============================================================
+   Peaufinage back-office OptiLeads — plus doux, plus premium.
+   Ajustements légers par-dessus le thème Filament, sans casser
+   son système (couleurs pilotées par AdminPanelProvider).
+   ============================================================ */
+
+/* Marque de la barre latérale un peu plus aérée. */
+.fi-sidebar-header {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+/* Éléments de navigation : coins plus arrondis, transition douce. */
+.fi-sidebar-item-button {
+    border-radius: 0.625rem;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Cartes / sections / tables : arrondis et ombre plus douce. */
+.fi-section,
+.fi-wi,
+.fi-ta,
+.fi-fo-card {
+    border-radius: 1rem;
+}
+
+.fi-section {
+    box-shadow: 0 1px 3px rgba(20, 24, 36, 0.05), 0 8px 24px -12px rgba(20, 24, 36, 0.10);
+}
+
+/* En-tête de page : titre un peu plus affirmé. */
+.fi-header-heading {
+    letter-spacing: -0.02em;
+}
+
+/* Boutons : arrondis cohérents avec le front. */
+.fi-btn {
+    border-radius: 0.625rem;
+    font-weight: 600;
+}
+
+/* Badges plus doux. */
+.fi-badge {
+    border-radius: 9999px;
+    font-weight: 600;
+}
+
+/* Champs de formulaire : arrondis harmonisés. */
+.fi-input-wrp,
+.fi-select-input {
+    border-radius: 0.625rem;
+}
+
+/* Fond général très légèrement teinté (canvas premium). */
+.fi-body {
+    background-color: #f8f9fb;
+}
+
+@media (prefers-color-scheme: dark) {
+    .fi-body {
+        background-color: #0f1420;
+    }
+}
+
+/* Page de connexion : logo plus généreux, carte plus douce. */
+.fi-simple-main {
+    border-radius: 1.25rem;
+    box-shadow: 0 1px 3px rgba(20, 24, 36, 0.06), 0 18px 40px -16px rgba(20, 24, 36, 0.20);
+}
