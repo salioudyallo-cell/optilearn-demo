@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Nimba Académie'),
+    'name' => env('APP_NAME', 'OptiLearn'),
 
     /*
     |--------------------------------------------------------------------------
