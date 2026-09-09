@@ -39,8 +39,8 @@ return [
     /*
      * Logo. Vide => embleme colore + nom en toutes lettres (aucun fichier a produire).
      */
-    'logo_image' => env('BRAND_LOGO_IMAGE', ''),
-    'logo_image_white' => env('BRAND_LOGO_IMAGE_WHITE', ''),
+    'logo_image' => env('BRAND_LOGO_IMAGE', 'images/demoelearning.png'),
+    'logo_image_white' => env('BRAND_LOGO_IMAGE_WHITE', 'images/demoelearning.png'),
 
     // Favicon (onglet du navigateur). Accepte .png ou .svg.
     'favicon' => env('BRAND_FAVICON', 'images/favicon-optilearn.svg'),

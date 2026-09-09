@@ -7,9 +7,9 @@
      - sinon -> embleme colore + nom en toutes lettres (aucun fichier a produire). --}}
 <span {{ $attributes->merge(['class' => 'inline-flex items-center '.$class]) }}>
     @if ($logo)
-        <img src="{{ asset($logo) }}" alt="{{ config('brand.name') }}" class="h-8 w-auto">
+        <img src="{{ asset($logo) }}" alt="{{ config('brand.name') }}" class="h-9 w-auto shrink-0">
     @else
         <x-brand-emblem class="h-9 w-9 shrink-0" />
-        <span class="ml-2.5 text-lg font-bold tracking-tight text-brand-navy">{{ config('brand.name') }}</span>
     @endif
+    <span class="ml-2.5 text-lg font-bold tracking-tight text-brand-navy">{{ config('brand.name') }}</span>
 </span>

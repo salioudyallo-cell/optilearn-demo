@@ -7,11 +7,11 @@
                 <a href="{{ route('home') }}" class="inline-flex items-center rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60" aria-label="{{ config('brand.name') }}, accueil">
                     @php $logoWhite = config('brand.logo_image_white'); @endphp
                     @if ($logoWhite)
-                        <img src="{{ asset($logoWhite) }}" alt="{{ config('brand.name') }}" class="h-10 w-auto">
+                        <img src="{{ asset($logoWhite) }}" alt="{{ config('brand.name') }}" class="h-9 w-auto shrink-0">
                     @else
                         <x-brand-emblem class="h-9 w-9 shrink-0" />
-                        <span class="ml-2.5 text-lg font-bold tracking-tight text-white">{{ config('brand.name') }}</span>
                     @endif
+                    <span class="ml-2.5 text-lg font-bold tracking-tight text-white">{{ config('brand.name') }}</span>
                 </a>
                 <p class="text-sm leading-relaxed max-w-sm">
                     {{ config('brand.tagline') }}
