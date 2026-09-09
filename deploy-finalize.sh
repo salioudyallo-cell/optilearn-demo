@@ -18,6 +18,10 @@ composer install --no-dev --optimize-autoloader --no-interaction
 # Migrations de base (sans interaction, sûres en production).
 php artisan migrate --force
 
+# Lien symbolique de stockage (idempotent) : sert les medias deposes via le disque
+# « public » (couvertures, certificats publics) sur /storage. Sans lui -> 404.
+php artisan storage:link || true
+
 # Reconstruction des caches (config, routes, vues).
 php artisan optimize
 
