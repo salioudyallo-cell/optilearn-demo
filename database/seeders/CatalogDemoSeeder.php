@@ -17,6 +17,7 @@ use App\Models\QuizOption;
 use App\Models\QuizQuestion;
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use RuntimeException;
 
@@ -58,7 +59,7 @@ class CatalogDemoSeeder extends Seeder
         $this->seedIntermediateCourse($instructor);
         $this->seedAdvancedCourse($instructor);
 
-        $this->command->info('Catalogue de démonstration prêt : 3 formations, 3 miniatures.');
+        $this->command->info('Catalogue de démonstration prêt : 3 formations, 3 couvertures photo.');
         $this->command->info('Codes d’accès : DEMOVIDEO1 · LEADSB2B24 · PILOTAGE01');
     }
 
@@ -480,14 +481,25 @@ class CatalogDemoSeeder extends Seeder
     // =====================================================================
 
     /**
-     * Ecrit la miniature sur le disque des medias et renvoie son chemin relatif.
+     * Ecrit la couverture sur le disque des medias et renvoie son chemin relatif.
      *
-     * SVG genere : aucune image tierce (donc aucune licence a verifier), quelques
-     * kilo-octets, et un rendu net sur tous les ecrans. Remplacable par une vraie
-     * photo depuis le back-office a tout moment.
+     * Priorite a une vraie photo versionnee dans public/images/demo-covers/<name>.jpg
+     * (banque libre de droits, deposee au depot). En son absence, repli sur une
+     * miniature SVG generee (aucune image tierce, remplacable au back-office).
      */
     private function writeCover(string $name): string
     {
+        $disk = Storage::disk(config('lms.courses.media_disk'));
+
+        // Photo fournie (libre de droits) : copiee telle quelle sur le disque des medias.
+        $photo = public_path('images/demo-covers/'.$name.'.jpg');
+        if (File::isFile($photo)) {
+            $path = 'courses/covers/'.$name.'.jpg';
+            $disk->put($path, File::get($photo));
+
+            return $path;
+        }
+
         /** @var array<string, array{0: string, 1: string, 2: string}> $palettes */
         $palettes = [
             // [debut du degrade, fin du degrade, couleur d'accent]
@@ -498,7 +510,6 @@ class CatalogDemoSeeder extends Seeder
 
         $palette = $palettes[$name] ?? $palettes['decouverte'];
         $path = 'courses/covers/'.$name.'.svg';
-        $disk = Storage::disk(config('lms.courses.media_disk'));
 
         $disk->put($path, $this->coverSvg(...$palette));
 
