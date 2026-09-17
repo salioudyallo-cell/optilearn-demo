@@ -1,0 +1,829 @@
+{
+    "base_slug": "acquisition-b2b",
+    "levels": {
+        "avance": {
+            "title": "Masterclass Acquisition B2B",
+            "subtitle": "mettre en place et faire tourner un système d'acquisition B2B semi-automatisé (cible, messages multicanaux, séquences, pipeline, plan 30 jours) sur son propre cas.",
+            "slug": "acquisition-b2b",
+            "level": "avance",
+            "description": "## Programme\n\n- Module 01 — Diagnostic et offre\n- Module 02 — Cibler\n- Module 03 — Convaincre\n- Module 04 — Automatiser\n- Module 05 — Piloter\n\nChaque module comprend des leçons, des exercices pratiques et un quiz de validation.",
+            "modules": [
+                {
+                    "title": "Module 01 — Diagnostic et offre",
+                    "position": 1,
+                    "lessons": [
+                        {
+                            "title": "Leçon 01 — Diagnostiquer son acquisition aujourd'hui",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de diagnostiquer sa situation d'acquisition actuelle (canaux, volume, points de blocage) à l'aide d'une grille simple (O1.1).\n\n## Prérequis\n- Avoir une activité B2B en cours, même modeste.\n- Connaître, même approximativement, d'où viennent vos clients actuels.\n\n## 1. La notion, simplement\n\n**Diagnostiquer, c'est mesurer avant de soigner.** On ne répare pas une acquisition qu'on n'a pas d'abord regardée en face. Avant d'automatiser quoi que ce soit, vous devez savoir trois choses.\n\n**a) Vos canaux : d'où viennent réellement vos clients ?**\nUn canal, c'est un chemin par lequel un prospect arrive jusqu'à vous : bouche-à-oreille, recommandation, LinkedIn, email, WhatsApp, appels, événements, réseau. La plupart des indépendants et PME B2B dépendent à 80 % d'un seul canal (souvent la recommandation), sans le savoir. Un canal unique, c'est une acquisition fragile : le jour où il se tarit, tout s'arrête.\n\n**b) Votre volume : combien, à chaque étape ?**\nOn suit un prospect sur quatre étapes simples :\n1. **Contacts** : combien de personnes vous approchez (ou qui vous approchent) sur une période.\n2. **Réponses** : combien répondent ou montrent de l'intérêt.\n3. **Rendez-vous** : combien vont jusqu'à un échange sérieux (appel, réunion).\n4. **Clients** : combien signent.\n\nSans ces chiffres, même approximatifs, vous pilotez à l'aveugle.\n\n**c) Votre point de blocage : où ça coince ?**\nLe blocage est presque toujours à une étape précise. Trois profils fréquents :\n- **Pas assez de contacts** : peu de gens dans le tuyau. Problème de volume et de ciblage.\n- **Contacts mais peu de réponses** : le message ou la cible ne sont pas bons. Problème de pertinence.\n- **Réponses mais peu de clients** : l'offre, le prix ou le suivi coincent. Problème de conversion.\n\nLe diagnostic sert à trouver **la seule étape** qui bloque le plus. On corrige celle-là en priorité, pas les cinq à la fois.\n\n## 2. Exemple concret\n\nAïcha dirige une petite agence de communication à Dakar. Elle a « l'impression de courir sans avancer ». On pose la grille :\n\n- **Canaux** : 90 % recommandation, 10 % LinkedIn au hasard. Un seul vrai canal.\n- **Volume sur le dernier mois** : environ 8 contacts, 5 réponses, 2 rendez-vous, 1 client.\n- **Lecture** : ses messages convertissent plutôt bien (5 réponses sur 8, 1 client sur 2 rendez-vous). Le problème n'est pas le message : c'est le **volume de contacts**. Avec seulement 8 contacts par mois, elle ne peut pas grandir.\n\nDiagnostic : le blocage est à l'étape « Contacts ». Priorité pour Aïcha : élargir sa cible et augmenter le nombre de prospects approchés (ce sera le Module 2), pas réécrire ses messages qui marchent déjà.\n\nSans le diagnostic, Aïcha aurait sans doute passé des semaines à « améliorer ses messages », c'est-à-dire à réparer ce qui n'était pas cassé.\n\n## 3. À retenir\n- On diagnostique avant d'agir : canaux, volume, point de blocage.\n- Quatre étapes à chiffrer : contacts : réponses : rendez-vous : clients.\n- Un seul canal dominant = acquisition fragile.\n- Le blocage se situe presque toujours à une étape précise : on la corrige en priorité.\n- Des chiffres approximatifs valent mille fois mieux que pas de chiffres.\n\n## 4. Erreurs fréquentes\n- **Vouloir tout améliorer en même temps.** On disperse ses efforts et on ne mesure aucun progrès.\n- **Confondre activité et résultat.** « J'ai envoyé beaucoup de messages » n'est pas un chiffre de réponses ni de clients.\n- **Attendre des chiffres parfaits.** Une estimation honnête du dernier mois suffit pour démarrer.\n- **Oublier de compter les canaux.** Croire qu'on a plusieurs sources alors qu'une seule fait tout le travail.\n- **Sauter le diagnostic** parce qu'« on connaît déjà son activité ». Le regard chiffré révèle presque toujours une surprise.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-01-grille-diagnostic.md`\n</content>",
+                            "is_preview": true
+                        },
+                        {
+                            "title": "Leçon 02 — Formuler une proposition de valeur B2B claire",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de formuler une proposition de valeur claire pour une cible B2B précise (à qui, quel problème, quel résultat) (O1.2).\n\n## Prérequis\n- Avoir fait le diagnostic de la leçon 01 (savoir à quelle étape on bloque).\n- Connaître, même sommairement, le type d'entreprise à qui l'on vend.\n\n## 1. La notion, simplement\n\n**Une proposition de valeur répond à une question que se pose votre prospect : « pourquoi vous, et pourquoi maintenant ? »** Elle ne décrit pas ce que vous faites : elle décrit ce que le client obtient.\n\nLa différence est capitale en B2B :\n- Ce que vous faites : « Je fais des sites web. »\n- Ce que le client obtient : « J'aide les cabinets de conseil à transformer leur site en source de rendez-vous qualifiés. »\n\nLe second attire, parce qu'il parle du **résultat** du client, pas de votre **métier**.\n\n**La structure en trois blocs (à qui : quel problème : quel résultat).**\nUne proposition de valeur claire tient dans une phrase construite ainsi :\n\n> J'aide **[à qui : cible précise]** à **[quel résultat concret]** sans **[la principale douleur ou peur]**.\n\nTrois exigences :\n1. **À qui : une cible précise, pas « les entreprises ».** « Les PME » est trop vague. « Les cabinets comptables de 3 à 15 personnes » est actionnable.\n2. **Quel résultat : un bénéfice concret et mesurable si possible**, formulé du point de vue du client (gagner du temps, obtenir des rendez-vous, réduire un coût, sécuriser une mise en conformité).\n3. **Sans quoi : la douleur qu'on lève.** C'est ce qui rend la promesse crédible et différenciante (« sans recruter un commercial », « sans y passer vos soirées », « sans outil compliqué »).\n\n**Pourquoi c'est le socle de tout le système.** Votre cible (Module 2), vos messages (Module 3) et vos relances (Module 4) découlent tous de cette phrase. Si elle est floue, tout le reste sera flou. Si elle est nette, le reste devient simple.\n\n## 2. Exemple concret\n\nMoussa est consultant en gestion à Thiès. Sa présentation habituelle : « Je fais du conseil en organisation pour les entreprises. » Personne ne réagit.\n\nOn applique la structure :\n- **À qui** : les PME de négoce et de distribution de 10 à 50 employés au Sénégal.\n- **Quel résultat** : réduire les ruptures de stock et les pertes liées à une gestion approximative.\n- **Sans quoi** : sans installer un logiciel coûteux ni bouleverser leurs habitudes.\n\nProposition de valeur reformulée :\n\n> « J'aide les PME de distribution de 10 à 50 employés à réduire leurs ruptures de stock et leurs pertes, sans logiciel coûteux ni révolution interne. »\n\nRésultat : quand Moussa se présente ainsi, un dirigeant de distribution se reconnaît immédiatement (« ça, c'est mon problème »). La conversation démarre sur le besoin, pas sur le métier de Moussa.\n\n## 3. À retenir\n- La proposition de valeur décrit le **résultat du client**, pas votre métier.\n- Structure : j'aide **[cible précise]** à **[résultat concret]** sans **[douleur]**.\n- Une cible précise bat toujours une cible large.\n- C'est le socle : cible, messages et relances en découlent.\n- Si un dirigeant de votre cible ne se reconnaît pas en une lecture, la phrase est encore trop vague.\n\n## 4. Erreurs fréquentes\n- **Parler de soi** (« je suis expert en… ») au lieu du résultat client.\n- **Cible trop large** (« les entreprises », « les PME ») qui ne parle à personne.\n- **Jargon** que le client n'emploie pas lui-même (« optimisation des processus », « synergies »).\n- **Promesse invérifiable ou exagérée** (« je triple votre chiffre d'affaires »). En B2B, la crédibilité prime.\n- **Vouloir plaire à tout le monde.** Une bonne proposition de valeur exclut volontairement ceux qui ne sont pas la cible.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-02-proposition-valeur.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 03 — De la prospection manuelle au système : les 5 briques",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de distinguer prospection manuelle et système d'acquisition, et de situer les 5 briques du système (O1.3).\n\n## Prérequis\n- Avoir fait son diagnostic (leçon 01) et formulé sa proposition de valeur (leçon 02).\n\n## 1. La notion, simplement\n\n**Prospecter à la main, c'est refaire chaque jour le même travail de zéro.** Vous cherchez un contact, vous écrivez un message unique, vous oubliez de relancer, vous ne savez plus où vous en êtes. Le résultat dépend de votre énergie du jour. Quand vous arrêtez, tout s'arrête.\n\n**Un système d'acquisition, c'est un enchaînement défini une fois, puis répété et suivi.** Il ne supprime pas l'humain : il supprime le travail refait à chaque fois et les oublis. La différence n'est pas « avec ou sans outil », c'est **désordre refait chaque jour** contre **process reproductible et suivi**.\n\n**Les 5 briques du système.** Tout système d'acquisition B2B, du plus simple au plus avancé, repose sur cinq briques. C'est le plan de cette masterclass :\n\n1. **Cible** : à qui je parle (client idéal + liste de prospects qualifiés). → Module 2\n2. **Message** : ce que je dis pour obtenir une réponse, adapté au canal. → Module 3\n3. **Séquence** : mes relances organisées (combien, quand, sur quel canal, quand j'arrête). → Module 4\n4. **Suivi** : où en est chaque prospect (pipeline, prochaine action). → Module 5\n5. **Pilotage** : mes quelques chiffres pour ajuster et durer. → Module 5\n\n**Automatiser ne veut pas dire « tout robotiser ».** Le bon niveau d'automatisation, c'est « le nécessaire » : on automatise ce qui est répétitif et sans valeur ajoutée (rappels de relance, suivi, modèles de message), et on garde humain ce qui crée la relation (la personnalisation, la réponse à un prospect intéressé). Un système peut être semi-automatique et très efficace avec un simple tableur bien tenu.\n\n**Les 3 niveaux d'automatisation** (pour situer où vous êtes) :\n- **Niveau 0 : manuel** : tout de tête ou éparpillé, aucun suivi écrit.\n- **Niveau 1 : semi-automatique** : modèles de messages réutilisables, une liste de prospects, un pipeline de suivi tenu à jour, des relances planifiées. Accessible à tous, dès cette journée.\n- **Niveau 2 : automatisé** : outils qui enchaînent l'envoi et les relances tout seuls. Utile plus tard, une fois le niveau 1 maîtrisé.\n\nL'objectif de la journée est d'atteindre un **niveau 1 solide**. C'est là que se trouve le plus gros gain, et c'est la base indispensable avant tout niveau 2.\n\n## 2. Exemple concret\n\nFatou vend un logiciel de facturation à des commerçants et PME à Dakar. En manuel (niveau 0) : elle contacte des gens quand elle y pense, sur WhatsApp, sans liste ni suivi. Certains mois, 20 contacts : d'autres, zéro. Elle oublie de relancer ceux qui avaient dit « rappelez-moi le mois prochain ».\n\nOn la fait passer au niveau 1, sans nouvel outil coûteux :\n- **Cible** : une liste dans un tableur (commerçants de gros à Dakar, 20 lignes).\n- **Message** : deux modèles WhatsApp prêts (premier contact + relance).\n- **Séquence** : premier message, relance à J+3, dernière relance à J+7, puis on arrête.\n- **Suivi** : une colonne « statut » (à contacter, relancé, intéressé, client, perdu) et une colonne « prochaine action + date ».\n- **Pilotage** : en bas du tableur, un compteur : contacts, réponses, rendez-vous, clients.\n\nMême énergie, mais plus rien ne se perd. Fatou sait chaque matin qui relancer aujourd'hui. C'est un système, avec un simple tableur.\n\n## 3. À retenir\n- Manuel = travail refait chaque jour et oublis. Système = process défini une fois, répété et suivi.\n- 5 briques : cible : message : séquence : suivi : pilotage. Elles suivent le plan de la formation.\n- Automatiser « le nécessaire » : le répétitif au système, l'humain à la relation.\n- Viser le niveau 1 (semi-automatique) : le plus gros gain, faisable dès aujourd'hui.\n- Un tableur bien tenu est déjà un vrai système.\n\n## 4. Erreurs fréquentes\n- **Croire qu'il faut des outils sophistiqués** pour avoir un système. Le niveau 1 se fait au tableur.\n- **Vouloir sauter au niveau 2** (tout automatiser) avant de maîtriser les bases. On automatise le désordre, on obtient du désordre plus rapide.\n- **Confondre automatiser et déshumaniser.** Un message robotisé envoyé en masse détruit la réputation (on le verra au Module 3).\n- **Ne pas écrire le suivi.** Sans trace écrite, il n'y a pas de système, juste de la mémoire qui fuit.\n- **Négliger le pilotage.** Sans chiffres, on ne sait pas quelle brique améliorer.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-03-briques-systeme.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Exercices pratiques",
+                            "type": "text",
+                            "content": "## Exercices pratiques\n\n## Exercice 01 — Grille de diagnostic de mon acquisition\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-01-diagnostic-acquisition.md`\n- Compétence visée : être capable de diagnostiquer sa situation d'acquisition actuelle à l'aide d'une grille simple (O1.1).\n\n## Consigne\nRemplissez la grille de diagnostic ci-dessous sur votre activité réelle, à partir de votre dernier mois représentatif. Puis identifiez votre **unique point de blocage prioritaire** et justifiez-le en une phrase.\n\n## Données / contexte\nUtilisez des estimations honnêtes si vous n'avez pas les chiffres exacts. L'objectif est de voir clair, pas d'être parfait.\n\n**Grille à remplir :**\n\n1. Mes canaux (cochez et estimez la part de vos clients qui vient de chacun) :\n   - Recommandation / bouche-à-oreille : ____ %\n   - LinkedIn : ____ %\n   - Email : ____ %\n   - WhatsApp : ____ %\n   - Réseau / événements : ____ %\n   - Autre (préciser) : ____ %\n\n2. Mon volume sur le dernier mois :\n   - Contacts approchés : ____\n   - Réponses / intérêts : ____\n   - Rendez-vous sérieux : ____\n   - Clients signés : ____\n\n3. Mon canal dominant représente ____ % de mes clients (fragile si supérieur à 70 %).\n\n## Ce qui est attendu\n- La grille entièrement remplie (canaux + 4 chiffres de volume).\n- Une phrase désignant **le** point de blocage prioritaire parmi : (a) pas assez de contacts, (b) contacts mais peu de réponses, (c) réponses mais peu de clients.\n- Une justification chiffrée courte (ex. « 5 réponses sur 8 contacts : le message va, c'est le volume qui bloque »).\n\n## Barème / critères de réussite\n- Grille complète (canaux + volume) : 4 points.\n- Un seul point de blocage identifié (pas trois) : 3 points.\n- Justification appuyée sur les chiffres de la grille : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-01-grille-diagnostic.md`\n</content>\n\n---\n\n## Exercice 02 — Ma proposition de valeur en une phrase\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-02-proposition-valeur.md`\n- Compétence visée : être capable de formuler une proposition de valeur claire pour une cible B2B précise (O1.2).\n\n## Consigne\nRédigez votre proposition de valeur en une phrase, selon la structure :\n\n> J'aide **[cible précise]** à **[résultat concret]** sans **[douleur principale]**.\n\nPuis vérifiez-la avec la grille de contrôle fournie.\n\n## Données / contexte\nAppuyez-vous sur votre activité réelle et sur le diagnostic de l'exercice 01. Si vous hésitez entre deux cibles, choisissez la plus précise et la plus accessible pour vous aujourd'hui.\n\n## Ce qui est attendu\n1. Une phrase respectant les trois blocs (cible / résultat / sans quoi).\n2. La grille de contrôle remplie (répondez oui/non à chaque ligne) :\n   - Ma cible est-elle précise (secteur + taille ou rôle), pas juste « les entreprises » ? ____\n   - Le résultat est-il formulé du point de vue du client (ce qu'il gagne) ? ____\n   - La douleur levée est-elle réelle et parlante pour cette cible ? ____\n   - Un dirigeant de ma cible se reconnaîtrait-il en une seule lecture ? ____\n   - Ma phrase évite-t-elle le jargon et les promesses invérifiables ? ____\n3. Si une réponse est « non », proposez une deuxième version corrigée.\n\n## Barème / critères de réussite\n- Phrase structurée avec les 3 blocs présents : 4 points.\n- Cible précise et actionnable : 2 points.\n- Résultat côté client, sans jargon ni promesse exagérée : 2 points.\n- Grille de contrôle remplie honnêtement + correction si besoin : 2 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-02-proposition-valeur.md`\n</content>\n\n---\n\n## Exercice 03 — Situer mes briques et mon niveau d'automatisation\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-03-systeme-acquisition.md`\n- Compétence visée : être capable de distinguer prospection manuelle et système, et de situer les 5 briques (O1.3).\n\n## Consigne\nPour chacune des 5 briques du système, indiquez où vous en êtes aujourd'hui (rien / partiel / en place), puis déterminez votre niveau d'automatisation global (0, 1 ou 2) et la première brique à construire pendant la journée.\n\n## Données / contexte\nRépondez sur votre activité réelle. « Partiel » signifie que la brique existe mais de façon désordonnée ou non écrite.\n\n**Tableau à remplir :**\n\n| Brique | Où j'en suis (rien / partiel / en place) | Note libre |\n|--------|------------------------------------------|-----------|\n| 1. Cible (client idéal + liste) | | |\n| 2. Message (ce que je dis) | | |\n| 3. Séquence (relances organisées) | | |\n| 4. Suivi (pipeline, prochaine action) | | |\n| 5. Pilotage (mes chiffres) | | |\n\n## Ce qui est attendu\n1. Le tableau des 5 briques rempli.\n2. Mon niveau d'automatisation global : 0 (manuel), 1 (semi-automatique) ou 2 (automatisé), avec une phrase de justification.\n3. La **première brique** à construire ou consolider aujourd'hui, en lien avec le blocage identifié à l'exercice 01.\n\n## Barème / critères de réussite\n- Les 5 briques évaluées : 4 points.\n- Niveau global correctement déterminé et justifié : 3 points.\n- Première brique choisie cohérente avec le diagnostic de l'exercice 01 : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-03-briques-systeme.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Quiz de validation",
+                            "type": "quiz",
+                            "quiz": {
+                                "pass_score_pct": 60,
+                                "max_attempts": 3,
+                                "questions": [
+                                    {
+                                        "position": 1,
+                                        "prompt": "Dans un diagnostic d'acquisition, quelles sont les quatre étapes de volume à chiffrer, dans l'ordre ?",
+                                        "explanation": "c'est l'ordre du parcours du prospect ; on suit la chute d'une étape à l'autre.",
+                                        "options": [
+                                            {
+                                                "label": "Clients, réponses, contacts, rendez-vous",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Contacts, réponses, rendez-vous, clients",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Contacts, rendez-vous, réponses, clients",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Réponses, contacts, clients, rendez-vous",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 2,
+                                        "prompt": "Un participant a 40 contacts, 30 réponses, 20 rendez-vous, 1 client. Où est son blocage prioritaire ?",
+                                        "explanation": "20 rendez-vous pour 1 seul client : le tuyau est plein et les gens répondent, mais la conversion finale (offre, prix, suivi) coince. Le blocage n'est ni le volume ni le message d'approche.",
+                                        "options": [
+                                            {
+                                                "label": "Pas assez de contacts",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Contacts mais peu de réponses",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Réponses et rendez-vous mais peu de clients (conversion finale)",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Impossible à dire",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 3,
+                                        "prompt": "« J'aide les entreprises à mieux communiquer » est une bonne proposition de valeur B2B.",
+                                        "explanation": "« les entreprises » est une cible trop large et « mieux communiquer » un résultat vague, sans douleur levée. Personne ne s'y reconnaît.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 4,
+                                        "prompt": "Quelle formulation respecte le mieux la structure d'une proposition de valeur ?",
+                                        "explanation": "cible précise (cabinets d'architecture de 5 à 20 personnes), résultat concret (appels d'offres qualifiés) et douleur levée (sans démarchage à froid). Les autres parlent du prestataire ou restent vagues.",
+                                        "options": [
+                                            {
+                                                "label": "« Je suis expert en marketing digital depuis 10 ans. »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« J'aide les PME à réussir. »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« J'aide les cabinets d'architecture de 5 à 20 personnes à obtenir des appels d'offres qualifiés, sans démarchage à froid. »",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "« Je propose des services de qualité à prix compétitif. »",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 5,
+                                        "prompt": "il faut obligatoirement des outils d'automatisation payants pour avoir un vrai système d'acquisition.",
+                                        "explanation": "un système de niveau 1 (semi-automatique) se construit avec un simple tableur bien tenu : liste, modèles de messages, pipeline, chiffres. Les outils payants ne sont utiles qu'au niveau 2, plus tard.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 6,
+                                        "prompt": "Quelles sont les 5 briques d'un système d'acquisition ?",
+                                        "explanation": "ce sont les 5 briques enseignées, qui suivent le plan de la formation (Modules 2 à 5).",
+                                        "options": [
+                                            {
+                                                "label": "Cible, message, séquence, suivi, pilotage",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Publicité, site web, réseaux sociaux, email, téléphone",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Prospection, vente, facturation, livraison, fidélisation",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Budget, équipe, outils, temps, objectifs",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "is_preview": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 02 — Cibler",
+                    "position": 2,
+                    "lessons": [
+                        {
+                            "title": "Leçon 01 — Définir son client idéal (ICP)",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de définir son client idéal B2B (ICP) selon des critères observables (O2.1).\n\n## Prérequis\n- Avoir sa proposition de valeur du Module 1 (elle contient déjà une cible).\n\n## 1. La notion, simplement\n\n**ICP veut dire « profil du client idéal » (Ideal Customer Profile).** En B2B, ce n'est pas une personne mais un **type d'entreprise** (plus le bon interlocuteur dedans) avec qui tout se passe bien : le besoin est réel, le budget existe, la décision est possible, et vous livrez un résultat dont vous êtes fier.\n\nDéfinir son ICP, c'est répondre à : « à quoi reconnaît-on, de l'extérieur, une entreprise faite pour moi ? » La réponse doit tenir dans des **critères observables**, c'est-à-dire vérifiables sans connaître l'entreprise de l'intérieur.\n\n**Les 4 familles de critères observables :**\n1. **Secteur / activité** : ce que fait l'entreprise (agence web, cabinet comptable, distributeur, importateur).\n2. **Taille** : nombre d'employés, nombre d'agences, ou ordre de grandeur du chiffre d'affaires si visible.\n3. **Rôle du contact** : qui décide ou influence l'achat (gérant, directeur commercial, responsable administratif). En petite structure, c'est souvent le dirigeant.\n4. **Signaux** : indices qui montrent que le besoin est actuel (recrute des commerciaux, vient d'ouvrir une agence, publie sur un sujet lié à votre offre, participe à un salon).\n\n**Pourquoi les critères doivent être observables.** « Une entreprise motivée et sérieuse » n'est pas un critère : vous ne pouvez pas le voir avant de contacter. « Un cabinet comptable de 3 à 15 salariés à Dakar qui recrute » se repère de l'extérieur. Un bon ICP se lit sur LinkedIn, un annuaire ou une devanture.\n\n**L'ICP restreint volontairement.** Il vaut mieux 30 entreprises parfaitement ciblées que 300 vagues. Une cible étroite rend le message évident et les relances pertinentes.\n\n## 2. Exemple concret\n\nNdeye propose un service de community management à Dakar. Sa proposition de valeur vise « les PME qui veulent être visibles ». Trop large. On construit l'ICP :\n\n- **Secteur** : restaurants et hôtels de standing à Dakar (Almadies, Plateau).\n- **Taille** : établissement unique ou petite chaîne de 2 à 4 sites.\n- **Rôle du contact** : le gérant ou le responsable marketing.\n- **Signaux** : présence Instagram active mais irrégulière, photos de qualité inégale, promotions non relayées.\n\nRésultat : Ndeye sait exactement quoi chercher (un restaurant des Almadies avec un Instagram négligé) et son message peut devenir ultra pertinent (« j'ai vu votre page, voici ce que je changerais »). La cible large est devenue une cible qu'on repère en 30 secondes.\n\n## 3. À retenir\n- L'ICP est un **type d'entreprise** + le bon interlocuteur, pas une personne isolée.\n- 4 familles de critères observables : secteur, taille, rôle, signaux.\n- Observable = vérifiable de l'extérieur avant tout contact.\n- Une cible étroite bat une cible large : le message et les relances deviennent évidents.\n- Les signaux (recrutement, ouverture, publication) révèlent un besoin actuel.\n\n## 4. Erreurs fréquentes\n- **Critères non observables** (« sérieux », « qui a du budget ») qu'on ne peut pas voir avant de contacter.\n- **ICP trop large** qui rend impossible un message précis.\n- **Oublier le rôle du contact** et écrire à une entreprise sans savoir à qui parler.\n- **Ignorer les signaux** et contacter au hasard, sans indice de besoin actuel.\n- **Confondre ICP et liste** : l'ICP est la définition ; la liste (leçon 02) en découle.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-01-fiche-icp.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 02 — Trouver des prospects : les sources accessibles",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de trouver et rassembler des prospects qualifiés à partir de sources accessibles (O2.2).\n\n## Prérequis\n- Avoir une fiche ICP (leçon 01) : sans elle, on collecte au hasard.\n\n## 1. La notion, simplement\n\n**Une fois l'ICP défini, trouver des prospects devient une chasse guidée : vous savez quoi chercher, il reste à savoir où.** L'erreur serait d'attendre une base de données parfaite. En AOF, on constitue une bonne liste en croisant plusieurs sources gratuites ou peu coûteuses.\n\n**Les sources accessibles, par ordre de rentabilité :**\n\n1. **Votre réseau et vos clients actuels.** Le plus rapide et le plus chaud. Qui, dans vos contacts, correspond à l'ICP ? Qui peut vous recommander ? À ne jamais négliger.\n2. **LinkedIn.** La source la plus riche en B2B. La recherche permet de filtrer par secteur, poste, localisation. On repère l'entreprise et le bon interlocuteur. Même un compte gratuit permet déjà de constituer une liste.\n3. **Annuaires et groupements professionnels.** Chambres de commerce, syndicats de branche, annuaires sectoriels, listes d'exposants de salons. Utile pour les secteurs peu présents sur LinkedIn.\n4. **Terrain et observation directe.** Pour les commerces et établissements visibles (restaurants, boutiques, prestataires locaux) : la rue, Google Maps, Instagram sont des mines. On voit l'enseigne, on trouve le contact.\n5. **Recommandations ciblées.** Demander à un client satisfait : « connaissez-vous deux entreprises comme la vôtre qui auraient le même besoin ? »\n\n**Qualifier au moment de la collecte.** Chaque prospect ajouté doit cocher l'ICP. On ne remplit pas la liste pour la remplir : une ligne = une entreprise qui correspond vraiment. Mieux vaut 20 lignes solides que 100 douteuses.\n\n**Trouver le bon interlocuteur.** Pour les petites structures : le dirigeant. Pour les structures moyennes : le responsable du service concerné (commercial, marketing, administratif). LinkedIn et le site de l'entreprise donnent souvent le nom.\n\n## 2. Exemple concret\n\nIbrahima vend une solution de gestion de caisse aux pharmacies. Son ICP : pharmacies indépendantes de Dakar et sa banlieue, gérées par leur propriétaire. Il croise trois sources :\n\n- **Terrain / Google Maps** : il liste les pharmacies par quartier (Parcelles, Grand Yoff, Pikine). En une heure, 40 noms et adresses.\n- **LinkedIn** : il retrouve certains pharmaciens-titulaires et note leur nom.\n- **Réseau** : un ami pharmacien lui donne trois contacts directs.\n\nEn croisant, Ibrahima obtient une première liste de 25 pharmacies qualifiées, avec pour chacune le nom du gérant quand il l'a trouvé. Aucune base achetée, aucun outil payant : juste l'ICP et deux heures de collecte méthodique.\n\n## 3. À retenir\n- Sans ICP, la collecte est du hasard : la leçon 01 vient d'abord.\n- Sources accessibles : réseau et clients, LinkedIn, annuaires, terrain/Maps, recommandations.\n- On qualifie à la collecte : chaque ligne doit cocher l'ICP.\n- On cherche l'entreprise ET le bon interlocuteur.\n- 20 prospects solides valent mieux que 100 douteux.\n\n## 4. Erreurs fréquentes\n- **Attendre la liste parfaite** au lieu de croiser les sources disponibles.\n- **Collecter sans qualifier** : remplir des lignes qui ne correspondent pas à l'ICP.\n- **Rester sur une seule source** : le croisement donne les meilleures listes.\n- **Oublier de noter le bon interlocuteur** : contacter « l'entreprise » sans nom réduit les réponses.\n- **Négliger son propre réseau**, pourtant la source la plus chaude.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-02-collecte-prospects.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 03 — Construire un fichier de ciblage propre",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de construire un fichier de ciblage propre et exploitable (colonnes utiles, qualité des données, priorisation) (O2.3).\n\n## Prérequis\n- Avoir commencé à collecter des prospects (leçon 02).\n- Un tableur.\n\n## 1. La notion, simplement\n\n**Le fichier de ciblage est le cœur de votre système : c'est là que vivent vos prospects.** Un bon fichier n'est ni compliqué ni joli : il est **propre** (données fiables) et **exploitable** (on sait quoi faire de chaque ligne). Ce même fichier deviendra votre pipeline de suivi au Module 5. On le construit donc bien dès maintenant.\n\n**Les colonnes utiles (ni plus, ni moins) :**\n- **Entreprise** : nom.\n- **Interlocuteur** : nom du contact et fonction.\n- **Coordonnées** : le canal que vous utiliserez (email, profil LinkedIn, numéro WhatsApp). Une colonne par canal disponible.\n- **Critère ICP** : pourquoi ce prospect est qualifié (ex. « restaurant Almadies, Instagram négligé »).\n- **Priorité** : A, B ou C (voir plus bas).\n- **Statut** : à contacter, contacté, relancé, intéressé, rendez-vous, client, perdu. (Rempli aux Modules 4 et 5.)\n- **Prochaine action + date** : ce que je dois faire ensuite et quand. (Rempli plus tard.)\n- **Notes** : tout élément utile de personnalisation.\n\n**La qualité des données.** Trois règles simples :\n1. Une ligne = une entreprise, sans doublon.\n2. Un contact identifié vaut mieux qu'un email générique (info@) : on cherche le bon interlocuteur.\n3. Pas de ligne « au cas où » : si ça ne coche pas l'ICP, ça ne rentre pas.\n\n**La priorisation A / B / C.** On ne traite pas 20 prospects à l'identique :\n- **A** : correspond parfaitement à l'ICP + signal de besoin actuel + interlocuteur identifié. À contacter en premier.\n- **B** : correspond à l'ICP, sans signal fort ou sans contact nommé.\n- **C** : correspond de loin, ou information incomplète. À garder pour plus tard.\n\nOn commence toujours par les A : mêmes efforts, meilleures réponses.\n\n## 2. Exemple concret\n\nReprenons Ibrahima (pharmacies). Il structure son tableur ainsi :\n\n| Entreprise | Interlocuteur | WhatsApp | Critère ICP | Priorité | Statut | Prochaine action |\n|-----------|---------------|----------|-------------|----------|--------|------------------|\n| Pharmacie du Rond-Point | M. Diop (titulaire) | 77… | Indépendante, gérée par le proprio, forte affluence | A | à contacter | 1er message lundi |\n| Pharmacie Keur Massar | (nom à trouver) | 76… | Indépendante | B | à contacter | trouver le nom |\n| Pharmacie de la Gare | ? | ? | Vue sur Maps, à vérifier | C | à qualifier | vérifier si indépendante |\n\nEn un coup d'œil, Ibrahima sait par qui commencer (les A), quoi compléter (les B), et quoi vérifier (les C). Le fichier est prêt à devenir un pipeline dès qu'il commencera à contacter.\n\n## 3. À retenir\n- Le fichier de ciblage est le cœur du système ; il deviendra le pipeline (Module 5).\n- Colonnes utiles : entreprise, interlocuteur, coordonnées, critère ICP, priorité, statut, prochaine action, notes.\n- Propre = pas de doublon, contact nommé, aucune ligne hors ICP.\n- Priorisation A/B/C : on commence par les A.\n- Simple et exploitable prime sur joli et complet.\n\n## 4. Erreurs fréquentes\n- **Trop de colonnes** : on se noie et on ne remplit rien.\n- **Pas de priorisation** : on traite tout pareil et on s'épuise sur des prospects faibles.\n- **Emails génériques** (info@, contact@) au lieu d'un interlocuteur nommé.\n- **Doublons et lignes hors ICP** qui polluent le fichier.\n- **Refaire un autre fichier pour le suivi** : c'est le même qui évolue en pipeline.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-03-fichier-ciblage.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Exercices pratiques",
+                            "type": "text",
+                            "content": "## Exercices pratiques\n\n## Exercice 01 — Ma fiche ICP\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-01-definir-icp.md`\n- Compétence visée : être capable de définir son client idéal B2B selon des critères observables (O2.1).\n\n## Consigne\nRemplissez votre fiche ICP à l'aide des 4 familles de critères. Chaque critère doit être **observable** (vérifiable avant tout contact).\n\n## Données / contexte\nPartez de la proposition de valeur du Module 1. Choisissez une seule cible, la plus précise et accessible pour vous aujourd'hui.\n\n**Fiche à remplir :**\n- Secteur / activité : ____\n- Taille (employés, agences, ordre de grandeur) : ____\n- Rôle de l'interlocuteur visé : ____\n- Signaux de besoin actuel (au moins 2) : ____\n- Contre-exemple : une entreprise qui ressemble mais que j'exclus, et pourquoi : ____\n\n## Ce qui est attendu\n- Les 4 familles renseignées avec des critères observables.\n- Au moins 2 signaux concrets.\n- Un contre-exemple explicite (ce qui montre que la cible est vraiment délimitée).\n\n## Barème / critères de réussite\n- 4 familles renseignées : 4 points.\n- Critères réellement observables (pas « sérieux », « motivé ») : 3 points.\n- 2 signaux + 1 contre-exemple pertinents : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-01-fiche-icp.md`\n</content>\n\n---\n\n## Exercice 02 — Collecter 20 prospects qualifiés\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-02-sources-prospects.md`\n- Compétence visée : être capable de trouver et rassembler des prospects qualifiés à partir de sources accessibles (O2.2).\n\n## Consigne\nÀ partir de votre fiche ICP, collectez au moins 20 prospects qualifiés en croisant au minimum deux sources différentes. Pour chacun, notez au moins le nom de l'entreprise et, quand c'est possible, l'interlocuteur.\n\n## Données / contexte\nSources possibles : votre réseau et vos clients, LinkedIn, annuaires/groupements, terrain et Google Maps, recommandations. Chaque prospect ajouté doit cocher l'ICP.\n\n## Ce qui est attendu\n- Au moins 20 lignes, chacune correspondant à l'ICP.\n- Au moins 2 sources utilisées (à indiquer).\n- L'interlocuteur nommé pour au moins la moitié des lignes.\n- Pour chaque prospect, une note « pourquoi il coche l'ICP ».\n\n## Barème / critères de réussite\n- 20 prospects qualifiés : 4 points.\n- Au moins 2 sources croisées : 2 points.\n- Interlocuteur nommé pour ≥ 50 % : 2 points.\n- Chaque ligne justifiée par rapport à l'ICP : 2 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-02-collecte-prospects.md`\n</content>\n\n---\n\n## Exercice 03 — Monter et prioriser mon fichier de ciblage\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-03-fichier-ciblage.md`\n- Compétence visée : être capable de construire un fichier de ciblage propre et exploitable (O2.3).\n\n## Consigne\nDans un tableur, montez votre fichier de ciblage avec les colonnes utiles, importez vos 20 prospects de l'exercice 02, puis attribuez à chacun une priorité A, B ou C.\n\n## Données / contexte\nColonnes recommandées : Entreprise, Interlocuteur, Coordonnées (email / LinkedIn / WhatsApp), Critère ICP, Priorité, Statut, Prochaine action, Notes.\n\n## Ce qui est attendu\n- Un fichier avec les colonnes utiles (ni trop, ni trop peu).\n- Les 20 prospects saisis, sans doublon, tous conformes à l'ICP.\n- Une priorité A/B/C pour chaque ligne, avec au moins 5 prospects en A.\n- La colonne Statut initialisée à « à contacter » pour les A.\n\n## Barème / critères de réussite\n- Colonnes utiles présentes : 3 points.\n- Données propres (pas de doublon, contact nommé, aucune ligne hors ICP) : 3 points.\n- Priorisation A/B/C cohérente, au moins 5 A : 4 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-03-fichier-ciblage.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Quiz de validation",
+                            "type": "quiz",
+                            "quiz": {
+                                "pass_score_pct": 60,
+                                "max_attempts": 3,
+                                "questions": [
+                                    {
+                                        "position": 1,
+                                        "prompt": "Lequel de ces critères d'ICP est réellement observable avant tout contact ?",
+                                        "explanation": "secteur, taille, localisation et signal sont vérifiables de l'extérieur. Les autres décrivent un état d'esprit invisible avant contact.",
+                                        "options": [
+                                            {
+                                                "label": "« Une entreprise sérieuse et motivée »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« Un cabinet comptable de 3 à 15 salariés à Dakar qui recrute »",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "« Une entreprise qui a du budget »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« Une société qui apprécie mon travail »",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 2,
+                                        "prompt": "un ICP large (« toutes les PME ») est préférable, car il laisse plus de prospects possibles.",
+                                        "explanation": "une cible large ne parle à personne et rend le message et les relances vagues. Une cible étroite est plus efficace.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 3,
+                                        "prompt": "Parmi ces sources, laquelle est généralement la plus « chaude » et la plus rapide à activer ?",
+                                        "explanation": "ce sont les contacts les plus chauds, les plus rapides à activer et les plus enclins à recommander.",
+                                        "options": [
+                                            {
+                                                "label": "Un fichier acheté en ligne",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "La publicité payante",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Son propre réseau et ses clients actuels",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Un salon international",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 4,
+                                        "prompt": "il faut attendre d'avoir une base de données parfaite avant de commencer à contacter des prospects.",
+                                        "explanation": "on ne l'attend jamais ; on croise plusieurs sources accessibles pour constituer une bonne liste et on commence.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 5,
+                                        "prompt": "Quelle pratique garantit un fichier de ciblage propre ?",
+                                        "explanation": "la propreté du fichier tient à la fiabilité des données, pas au nombre de colonnes.",
+                                        "options": [
+                                            {
+                                                "label": "Le maximum de colonnes possibles",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Une ligne par entreprise, sans doublon, sans ligne hors ICP",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Uniquement des adresses génériques (info@)",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Aucune priorisation, pour rester neutre",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 6,
+                                        "prompt": "À quoi sert la priorisation A/B/C ?",
+                                        "explanation": "à effort égal, les A donnent les meilleures réponses. B et C sont conservés, pas supprimés.",
+                                        "options": [
+                                            {
+                                                "label": "À décorer le fichier",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "À traiter tous les prospects de la même façon",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "À commencer par les prospects au meilleur potentiel (A)",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "À supprimer les prospects B et C",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "is_preview": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 03 — Convaincre",
+                    "position": 3,
+                    "lessons": [
+                        {
+                            "title": "Leçon 01 — Anatomie d'un message d'approche qui obtient une réponse",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de rédiger un premier message d'approche personnalisé et orienté valeur (O3.1).\n\n## Prérequis\n- Avoir sa proposition de valeur (Module 1) et ses prospects A (Module 2).\n\n## 1. La notion, simplement\n\n**Un bon message d'approche n'essaie pas de vendre : il essaie d'obtenir une réponse.** Son seul objectif est de déclencher une conversation. On ne signe pas par un premier message ; on ouvre une porte.\n\n**La structure en 5 temps (accroche, contexte, valeur, preuve légère, demande) :**\n\n1. **Accroche personnalisée** : une phrase qui montre que vous vous adressez à cette entreprise précise, pas à 500 autres. C'est le signal « ceci n'est pas du spam ».\n2. **Contexte / raison du message** : pourquoi vous écrivez, en une phrase honnête.\n3. **Valeur** : le résultat que vous apportez à une entreprise comme la sienne (votre proposition de valeur, adaptée).\n4. **Preuve légère** : un élément qui rassure sans en faire trop (un résultat, un client comparable, une compétence). Pas de démonstration lourde à ce stade.\n5. **Demande simple et unique** : une seule action facile à accepter (« seriez-vous ouvert à un court échange ? », « puis-je vous envoyer un exemple ? »). Jamais deux demandes.\n\n**Règles d'or du premier message :**\n- **Court** : 5 à 8 lignes maximum. Un pavé ne se lit pas.\n- **Centré sur le prospect** : « vous » plus souvent que « je ».\n- **Une seule demande**, facile à dire oui.\n- **Ton humain**, comme à une vraie personne, pas un communiqué.\n\n**La personnalisation, cœur du réacteur.** L'accroche personnalisée fait la différence entre un message ignoré et un message lu. Elle s'appuie sur un détail réel : une actualité de l'entreprise, une publication, une observation concrète (page Instagram, ouverture, recrutement). C'est le fruit du travail de ciblage du Module 2.\n\n## 2. Exemple concret\n\nNdeye (community management) écrit à un restaurant des Almadies. Interlocuteur : le gérant, M. Sarr.\n\n> Bonjour M. Sarr,\n> J'ai déjeuné chez vous la semaine dernière : le cadre et la cuisine sont superbes. J'ai ensuite regardé votre page Instagram et j'ai vu qu'elle était active, mais irrégulière (plusieurs semaines sans publication).\n> J'aide les restaurants de standing des Almadies à remplir leurs tables en semaine grâce à une présence Instagram régulière et soignée, sans que le gérant ait à s'en occuper.\n> Pour un autre établissement du quartier, cela a permis de mieux remplir les midis de semaine.\n> Seriez-vous ouvert à un court échange de 15 minutes cette semaine pour que je vous montre concrètement ce que je changerais ?\n> Bien à vous, Ndeye.\n\nOn y retrouve les 5 temps : accroche vécue et précise, contexte, valeur (proposition de valeur du Module 1), preuve légère, une seule demande simple. Court, centré sur le prospect, humain.\n\n## 3. À retenir\n- Objectif du premier message : obtenir une réponse, pas vendre.\n- Structure en 5 temps : accroche, contexte, valeur, preuve légère, demande.\n- Court (5 à 8 lignes), centré « vous », une seule demande.\n- L'accroche personnalisée s'appuie sur un détail réel : c'est le fruit du ciblage.\n- Ton humain : on écrit à une personne, pas à une liste.\n\n## 4. Erreurs fréquentes\n- **Pavé indigeste** qui déballe toute l'offre dès le premier message.\n- **Message générique** sans accroche personnalisée : lu comme du spam.\n- **Parler de soi** (« je », « mon entreprise », « nos services ») au lieu du résultat client.\n- **Plusieurs demandes** ou une demande lourde (« réservez 1 heure », « remplissez ce formulaire »).\n- **Ton corporate** et impersonnel, sans nom ni salutation adaptée.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-01-message-approche.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 02 — Décliner son message sur email, LinkedIn et WhatsApp",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable d'adapter le même message aux 3 canaux (email, LinkedIn, WhatsApp) selon leurs codes (O3.2).\n\n## Prérequis\n- Avoir un message d'approche rédigé (leçon 01).\n\n## 1. La notion, simplement\n\n**Le même message ne se dit pas de la même façon selon le canal.** Le fond (les 5 temps de la leçon 01) reste identique : la forme, la longueur et le ton s'adaptent. Envoyer un email formel sur WhatsApp, ou un message WhatsApp familier par email froid, sonne faux et fait chuter les réponses.\n\n**Les codes des 3 canaux :**\n\n**Email**\n- Ton : professionnel mais humain.\n- Objet : court et intrigant, sans majuscules criardes ni promesse racoleuse.\n- Longueur : 5 à 8 lignes, aéré.\n- Signature : nom, activité, un moyen de recontact.\n- Usage : idéal pour un premier contact structuré et une trace écrite.\n\n**LinkedIn**\n- Ton : professionnel, direct, un peu plus léger que l'email.\n- Deux temps possibles : demande de connexion (note courte, 300 caractères max) puis message une fois accepté.\n- Longueur : très court, LinkedIn se lit sur mobile.\n- Atout : l'accroche peut s'appuyer sur une publication ou le parcours visible du contact.\n- Usage : idéal quand l'interlocuteur est actif sur LinkedIn.\n\n**WhatsApp Business**\n- Ton : chaleureux, proche, mais toujours respectueux et professionnel.\n- Longueur : le plus court des trois, phrases brèves.\n- Règle d'or : n'écrire que si le numéro est légitime (client, contact pro, numéro public d'entreprise), jamais à froid sur un numéro personnel obtenu sans consentement.\n- Atout : très bon taux de lecture en AOF, réponse rapide.\n- Usage : idéal pour un contact déjà tiède ou un numéro professionnel public.\n\n**Le principe : un fond, trois formes.** On écrit le message une fois (leçon 01), puis on le décline. On ne réinvente pas trois messages : on ajuste longueur, ton et format.\n\n## 2. Exemple concret\n\nNdeye décline son approche du restaurant sur les 3 canaux.\n\n**Email** (objet : « Votre page Instagram et vos tables du midi ») : version complète en 6 lignes, comme dans la leçon 01, avec signature.\n\n**LinkedIn** (note de connexion) :\n> Bonjour M. Sarr, je suis Ndeye, j'accompagne les restaurants de standing des Almadies sur Instagram. J'ai remarqué que votre page mérite plus de régularité. Ravie de me connecter, je vous en dirai plus avec plaisir.\n\n**WhatsApp** (numéro professionnel du restaurant, affiché publiquement) :\n> Bonjour M. Sarr, ici Ndeye. J'ai adoré votre restaurant et regardé votre Instagram : superbe, mais irrégulier. J'aide les restaurants du quartier à remplir leurs midis grâce à une présence régulière. Ouvert à un court échange cette semaine ?\n\nMême fond (accroche réelle, valeur, une demande), trois formes adaptées : email complet, LinkedIn bref et pro, WhatsApp chaleureux et très court.\n\n## 3. À retenir\n- Un fond unique, trois formes : on adapte longueur, ton, format, pas le message de fond.\n- Email : structuré, objet soigné, trace écrite.\n- LinkedIn : très court, mobile, appuyé sur le profil ou une publication.\n- WhatsApp : le plus court et chaleureux, uniquement sur un numéro légitime.\n- Choisir le canal où l'interlocuteur est le plus joignable.\n\n## 4. Erreurs fréquentes\n- **Copier-coller le même texte** partout sans adapter la forme.\n- **Objet d'email racoleur** (majuscules, « URGENT », promesses) qui envoie au spam.\n- **Message LinkedIn trop long** qui ne se lit pas sur mobile.\n- **WhatsApp à froid** sur un numéro personnel obtenu sans consentement : intrusif et risqué.\n- **Se tromper de canal** : écrire par email à quelqu'un injoignable par email et très actif sur LinkedIn.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-02-decliner-canaux.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 03 — Délivrabilité et réputation : les règles anti-spam",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable d'appliquer les règles anti-spam et de personnalisation qui protègent la délivrabilité et la réputation (O3.3).\n\n## Prérequis\n- Avoir un message décliné sur les canaux (leçons 01 et 02).\n\n## 1. La notion, simplement\n\n**Un message parfait ne sert à rien s'il n'arrive pas, ou s'il grille votre réputation.** Deux dangers guettent la prospection : le filtre anti-spam (votre email n'arrive jamais) et la réputation (on vous signale, on vous bloque, votre nom devient synonyme d'importun). Les deux se protègent avec les mêmes règles.\n\n**Délivrabilité : faire arriver l'email.**\n- **Volume progressif** : ne pas envoyer 200 emails d'un coup depuis une adresse neuve. On monte doucement (quelques dizaines par jour au début).\n- **Pas de pièce jointe ni de forêt de liens** dans un premier message froid : les filtres s'en méfient.\n- **Éviter les mots et signes « spam »** : majuscules criardes, « GRATUIT », « URGENT », points d'exclamation en rafale, promesses d'argent.\n- **Texte personnalisé** : les messages identiques envoyés en masse sont repérés et filtrés. La personnalisation aide aussi à passer.\n- **Adresse propre** : idéalement une adresse professionnelle liée à votre domaine, pas une adresse jetable.\n\n**Réputation : rester quelqu'un qu'on a envie de lire.**\n- **Ciblage juste** (Module 2) : écrire à des gens réellement concernés réduit les signalements.\n- **Une porte de sortie** : proposer implicitement ou explicitement de ne plus être recontacté (« dites-moi si ce n'est pas le moment »).\n- **Respecter un « non »** : un prospect qui refuse sort de la séquence, définitivement.\n- **Jamais de spam de masse** : mieux vaut 20 messages personnalisés que 500 génériques. Le second détruit la réputation pour un résultat nul.\n\n**Le cadre du consentement.** En B2B, on contacte un professionnel sur un sujet lié à son activité, avec un intérêt légitime. On reste mesuré : coordonnées professionnelles, message pertinent, possibilité de refuser. On n'utilise pas de numéros personnels obtenus sans consentement, ni de bases achetées de qualité douteuse.\n\n**La check-list anti-spam (à passer avant chaque envoi) :**\n1. Le message est-il personnalisé (accroche réelle) ?\n2. Est-il court, sans pièce jointe ni multitude de liens ?\n3. Évite-t-il les mots et signes « spam » ?\n4. Le prospect est-il réellement concerné (ICP) ?\n5. Peut-il facilement dire « non » ou « pas maintenant » ?\n\n## 2. Exemple concret\n\nOusmane veut lancer sa prospection email. Version 1 : 300 emails identiques d'un coup, objet « OFFRE EXCEPTIONNELLE !!! », avec une plaquette PDF de 5 Mo en pièce jointe. Résultat prévisible : la majorité part en spam, quelques-uns le signalent, son adresse est vite blacklistée.\n\nOn corrige : il envoie 30 emails par jour, personnalisés (accroche propre à chaque cabinet), objet sobre (« Une question sur votre recrutement de commerciaux »), sans pièce jointe, avec une phrase de sortie (« si ce n'est pas le bon moment, dites-le moi simplement »). Les emails arrivent, personne ne le signale, et il obtient ses premières réponses. Même offre, réputation préservée.\n\n## 3. À retenir\n- Un message qui n'arrive pas ou qui grille la réputation ne vaut rien.\n- Délivrabilité : volume progressif, pas de pièce jointe/liens en excès, pas de mots spam, texte personnalisé, adresse propre.\n- Réputation : bon ciblage, porte de sortie, respect du « non », jamais de masse.\n- Cadre B2B : coordonnées pro, message pertinent, possibilité de refuser.\n- Passer la check-list anti-spam avant chaque envoi.\n\n## 4. Erreurs fréquentes\n- **Envoi massif d'un coup** depuis une adresse neuve : spam garanti.\n- **Objets racoleurs** et ponctuation excessive.\n- **Pièces jointes lourdes** dès le premier message froid.\n- **Ignorer un refus** et continuer à relancer : atteinte grave à la réputation.\n- **Confondre volume et résultat** : 500 génériques rapportent moins que 20 personnalisés et nuisent durablement.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-03-filtre-antispam.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Exercices pratiques",
+                            "type": "text",
+                            "content": "## Exercices pratiques\n\n## Exercice 01 — Écrire mon message d'approche\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-01-message-approche.md`\n- Compétence visée : être capable de rédiger un premier message d'approche personnalisé et orienté valeur (O3.1).\n\n## Consigne\nChoisissez un prospect A de votre fichier (Module 2) et écrivez-lui un message d'approche complet, en respectant la structure en 5 temps.\n\n## Données / contexte\nUtilisez un détail réel du prospect pour l'accroche (publication, actualité, observation concrète). Appuyez la valeur sur votre proposition de valeur du Module 1.\n\n## Ce qui est attendu\n- Un message de 5 à 8 lignes.\n- Les 5 temps identifiables : accroche personnalisée, contexte, valeur, preuve légère, demande unique.\n- Un ton humain, centré « vous », une seule demande simple.\n\n## Barème / critères de réussite\n- Les 5 temps présents : 5 points (1 par temps).\n- Accroche réellement personnalisée (détail précis) : 2 points.\n- Une seule demande, simple : 1 point.\n- Longueur et ton respectés : 2 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-01-message-approche.md`\n</content>\n\n---\n\n## Exercice 02 — Décliner sur 3 canaux\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-02-adapter-canaux.md`\n- Compétence visée : être capable d'adapter le même message aux 3 canaux selon leurs codes (O3.2).\n\n## Consigne\nReprenez votre message d'approche de l'exercice 01 et déclinez-le en trois versions : email (avec objet), LinkedIn (note de connexion courte), WhatsApp (numéro légitime uniquement).\n\n## Données / contexte\nLe fond reste identique : seuls la longueur, le ton et le format changent. Indiquez pour votre prospect le canal que vous privilégieriez et pourquoi.\n\n## Ce qui est attendu\n- Version email : objet sobre + corps 5 à 8 lignes + signature.\n- Version LinkedIn : note très courte (environ 300 caractères), appuyée sur le profil.\n- Version WhatsApp : très courte, chaleureuse, uniquement si le numéro est légitime.\n- Le canal privilégié, justifié.\n\n## Barème / critères de réussite\n- 3 versions cohérentes entre elles (même fond) : 3 points.\n- Codes respectés par canal (objet email sobre, LinkedIn bref, WhatsApp court) : 4 points.\n- Canal privilégié justifié + condition de légitimité WhatsApp respectée : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-02-decliner-canaux.md`\n</content>\n\n---\n\n## Exercice 03 — Passer mon message au filtre anti-spam\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-03-delivrabilite-reputation.md`\n- Compétence visée : être capable d'appliquer les règles anti-spam et de personnalisation (O3.3).\n\n## Consigne\nPassez votre message (exercices 01 et 02) au filtre de la check-list anti-spam. Repérez au moins un point à corriger, corrigez-le, et définissez votre rythme d'envoi de départ.\n\n## Données / contexte\nCheck-list : (1) personnalisé, (2) court sans pièce jointe ni excès de liens, (3) sans mots/signes spam, (4) prospect réellement concerné, (5) porte de sortie possible.\n\n## Ce qui est attendu\n- La check-list appliquée point par point (oui/non + justification).\n- Au moins une correction concrète apportée au message ou à l'objet.\n- Un rythme d'envoi de départ raisonnable (ex. nombre d'emails par jour) et une phrase de sortie intégrée au message.\n\n## Barème / critères de réussite\n- Check-list appliquée aux 5 points : 4 points.\n- Une correction pertinente réalisée : 3 points.\n- Rythme d'envoi progressif + porte de sortie présente : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-03-filtre-antispam.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Quiz de validation",
+                            "type": "quiz",
+                            "quiz": {
+                                "pass_score_pct": 60,
+                                "max_attempts": 3,
+                                "questions": [
+                                    {
+                                        "position": 1,
+                                        "prompt": "Quel est l'objectif d'un premier message d'approche ?",
+                                        "explanation": "on ne vend pas au premier message ; on ouvre une porte.",
+                                        "options": [
+                                            {
+                                                "label": "Signer le contrat",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Présenter tout le catalogue",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Obtenir une réponse et ouvrir une conversation",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Faire remplir un formulaire détaillé",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 2,
+                                        "prompt": "Quelle est la bonne structure d'un message d'approche ?",
+                                        "explanation": "c'est la structure en 5 temps ; une seule demande, centrée sur le prospect.",
+                                        "options": [
+                                            {
+                                                "label": "Accroche, contexte, valeur, preuve légère, demande unique",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Prix, conditions, garanties, catalogue, signature",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Une seule longue présentation de soi",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Trois demandes différentes pour maximiser les chances",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 3,
+                                        "prompt": "un bon message d'approche parle surtout de soi et de son entreprise.",
+                                        "explanation": "un bon message est centré sur le prospect (« vous ») et le résultat qu'il obtient, pas sur soi.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 4,
+                                        "prompt": "Quelle affirmation respecte les codes des canaux ?",
+                                        "explanation": "chaque canal a ses codes ; le fond reste identique, la forme s'adapte.",
+                                        "options": [
+                                            {
+                                                "label": "Un message WhatsApp doit être long et très formel",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Une note LinkedIn peut être un pavé, personne ne lit sur mobile",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "L'email garde un objet sobre ; WhatsApp est court et chaleureux sur un numéro légitime",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Le même texte exact convient partout",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 5,
+                                        "prompt": "on peut écrire à froid sur le numéro WhatsApp personnel de n'importe qui, obtenu comme on peut.",
+                                        "explanation": "WhatsApp ne s'utilise que sur un numéro légitime (client, contact pro, numéro public d'entreprise), jamais à froid sur un numéro personnel obtenu sans consentement.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 6,
+                                        "prompt": "Quelle pratique protège la délivrabilité et la réputation ?",
+                                        "explanation": "ce sont les règles qui protègent à la fois la délivrabilité et la réputation.",
+                                        "options": [
+                                            {
+                                                "label": "Envoyer 300 emails identiques d'un coup depuis une adresse neuve",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Un objet en majuscules avec « GRATUIT !!! »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Volume progressif, message personnalisé, sans pièce jointe, avec porte de sortie",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Ignorer les refus et relancer quand même",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "is_preview": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 04 — Automatiser",
+                    "position": 4,
+                    "lessons": [
+                        {
+                            "title": "Leçon 01 — Concevoir une séquence de relance qui respecte le prospect",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de concevoir une séquence de relance (nombre de messages, délais, canaux, condition d'arrêt) (O4.1).\n\n## Prérequis\n- Avoir un message d'approche décliné sur les canaux (Module 3).\n\n## 1. La notion, simplement\n\n**La plupart des ventes B2B se font après plusieurs contacts, pas au premier message.** Un prospect qui ne répond pas n'est pas un prospect qui refuse : il est occupé, votre message est passé au mauvais moment, ou il a oublié. La relance n'est pas du harcèlement : c'est de la persévérance polie. La clé est de **définir la séquence à l'avance** pour ne plus improviser ni oublier.\n\n**Les 4 paramètres d'une séquence :**\n1. **Nombre de messages** : le premier contact + 2 à 4 relances. Au-delà, on insiste trop.\n2. **Délais** : on laisse respirer entre chaque message. Un rythme courant : J0 (premier message), J+3, J+7, J+12. Jamais deux messages le même jour.\n3. **Canaux** : on peut varier (email puis LinkedIn puis WhatsApp) pour multiplier les chances d'être vu, tout en restant cohérent et non intrusif.\n4. **Condition d'arrêt** : quand on s'arrête. Deux cas d'arrêt : le prospect répond (on sort de la séquence), ou la séquence est finie (dernier message envoyé, sans réponse → on classe « pas maintenant »).\n\n**Chaque relance apporte quelque chose de neuf.** Une relance n'est pas « je reviens vers vous » répété. À chaque étape, on ajoute une valeur : un exemple, une ressource utile, un angle différent, une question simple. La dernière relance peut être un message de clôture poli (« je n'insiste pas, la porte reste ouverte »), souvent le plus efficace.\n\n**Le respect intégré.** La séquence prévoit toujours la sortie : dès qu'un prospect répond (même pour dire non), il quitte la séquence automatique. On ne relance jamais quelqu'un qui a dit non.\n\n**Exemple de séquence type (multicanale) :**\n- J0 : email d'approche (message du Module 3).\n- J+3 : relance email courte, avec un angle ou un exemple nouveau.\n- J+7 : message LinkedIn (autre canal, on varie).\n- J+12 : message de clôture poli (email ou WhatsApp si légitime).\n- Arrêt : à toute réponse, ou après J+12.\n\n## 2. Exemple concret\n\nMoussa (conseil en gestion) construit sa séquence pour ses prospects A (PME de distribution) :\n- J0 : email d'approche (ruptures de stock).\n- J+3 : relance email avec un mini-conseil concret (« une astuce simple pour repérer vos produits à risque de rupture »), qui apporte de la valeur même sans réponse.\n- J+7 : message LinkedIn court (« je me permets un mot ici aussi, au cas où l'email serait passé inaperçu »).\n- J+12 : clôture (« je n'insiste pas davantage : si le sujet des ruptures revient sur la table, je reste disponible »).\n- Arrêt : dès qu'un prospect répond, Moussa sort la ligne de la séquence.\n\nRésultat : Moussa ne se demande plus « qui relancer et quand ». La séquence est écrite une fois : il l'exécute. Et il ne relancera jamais quelqu'un qui a répondu non.\n\n## 3. À retenir\n- Les ventes B2B se font souvent après plusieurs contacts : relancer est normal et poli.\n- 4 paramètres : nombre (contact + 2 à 4 relances), délais (laisser respirer), canaux (varier), condition d'arrêt.\n- Chaque relance apporte du neuf ; la dernière est une clôture polie.\n- Toute réponse fait sortir de la séquence ; on ne relance jamais un « non ».\n- Une séquence écrite à l'avance supprime l'improvisation et les oublis.\n\n## 4. Erreurs fréquentes\n- **Ne pas relancer du tout** (l'erreur la plus coûteuse) : abandonner après un seul message.\n- **Relancer trop, trop vite** : plusieurs messages rapprochés qui agacent.\n- **Relance vide** (« je reviens vers vous ») sans rien apporter.\n- **Oublier la condition d'arrêt** et continuer à relancer un prospect qui a refusé.\n- **Séquence sur un seul canal** alors que varier augmente les chances d'être vu.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-01-concevoir-sequence.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 02 — Mettre en place la séquence en semi-automatique",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de mettre en place sa séquence en semi-automatique avec des outils simples et accessibles (O4.2).\n\n## Prérequis\n- Avoir conçu sa séquence (leçon 01) et son fichier de ciblage (Module 2).\n\n## 1. La notion, simplement\n\n**« Le nécessaire » : on automatise juste ce qu'il faut pour ne rien oublier, sans se compliquer la vie.** Le but n'est pas d'avoir l'outil le plus sophistiqué, mais un système fiable qui vous dit chaque jour quoi faire. Deux niveaux, au choix selon votre aisance.\n\n**Option A : le tableur + rappels (niveau 1, accessible à tous).**\nVotre fichier de ciblage (Module 2) devient le moteur de la séquence :\n- Une colonne **Étape** : où en est le prospect (J0 fait, J+3 fait, etc.).\n- Une colonne **Prochaine action + date** : le prochain message et sa date.\n- Un rappel (agenda, téléphone) qui vous dit chaque matin : « voici qui relancer aujourd'hui ».\n- Des **modèles de messages** prêts (Module 3), à personnaliser en une minute avant l'envoi.\nVous envoyez à la main, mais rien ne se perd : c'est semi-automatique. C'est le point de départ recommandé.\n\n**Option B : le séquenceur d'emails (niveau 2, si vous êtes à l'aise).**\nUn outil qui envoie et relance automatiquement selon votre calendrier (J0, J+3, J+7…) et s'arrête dès qu'une réponse arrive. Utile quand le volume grandit. À n'adopter qu'une fois la logique maîtrisée au tableur, et en gardant la personnalisation (un outil mal réglé envoie du spam générique).\n\n**Le principe commun : séparer l'écrit du répétitif.**\n- L'**écrit** (le message, la personnalisation) reste humain : c'est votre valeur.\n- Le **répétitif** (savoir qui relancer, quand, ne pas oublier) est pris en charge par le système (tableur + rappel, ou séquenceur).\n\n**Rester maître de ses données.** Quel que soit l'outil, gardez la main sur votre fichier (export possible, pas de dépendance totale à un outil payant). Un tableur vous appartient toujours.\n\n## 2. Exemple concret\n\nFatou (logiciel de facturation) part en option A, sans rien payer :\n- Son fichier de ciblage a une colonne « Étape » et « Prochaine action + date ».\n- Chaque soir, elle trie par date : le lendemain matin, elle voit les 5 prospects à contacter ce jour-là.\n- Elle a deux modèles WhatsApp (premier contact, relance) qu'elle personnalise en 30 secondes.\n- Dès qu'un prospect répond, elle change son statut et retire la relance programmée.\n\nTrois mois plus tard, avec plus de volume, Fatou ajoute un séquenceur d'emails pour la partie email (option B), mais garde son tableur comme source de vérité. Elle a commencé simple et fait fiable ; elle a automatisé davantage seulement quand le besoin est apparu.\n\n## 3. À retenir\n- « Le nécessaire » : un système fiable qui dit quoi faire chaque jour, pas l'outil le plus complexe.\n- Option A (recommandée au départ) : tableur + colonne étape/date + rappel + modèles.\n- Option B : séquenceur d'emails, quand le volume grandit et la logique est maîtrisée.\n- On automatise le répétitif ; on garde l'écrit humain.\n- On reste maître de ses données (le tableur vous appartient).\n\n## 4. Erreurs fréquentes\n- **Vouloir un outil sophistiqué d'emblée** et ne jamais démarrer.\n- **Automatiser sans personnaliser** : un séquenceur mal réglé envoie du spam.\n- **Ne pas mettre de rappel** : la séquence tableur ne vit que si un rappel la déclenche.\n- **Éparpiller l'information** sur plusieurs supports au lieu d'un fichier unique.\n- **Dépendre à 100 % d'un outil payant** sans pouvoir exporter ses données.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-02-mise-en-place.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 03 — Gérer les réponses et aiguiller les prospects",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de gérer les réponses (positives, négatives, absentes) et de basculer un prospect au bon endroit (O4.3).\n\n## Prérequis\n- Avoir une séquence conçue (leçon 01) et mise en place (leçon 02).\n\n## 1. La notion, simplement\n\n**Une réponse est un carrefour : selon ce qu'elle dit, le prospect part à un endroit précis.** Sans règles claires, on hésite, on tarde, on perd des prospects chauds ou on relance des gens qui ont dit non. On définit donc à l'avance quoi faire dans chaque cas.\n\n**Les 4 types de réponse et leur aiguillage :**\n\n1. **Réponse positive (intérêt)** : « oui, parlons-en », « envoyez-moi plus d'infos ».\n   → Action : sortir de la séquence, passer le statut à « intéressé », répondre vite (dans les heures qui suivent) et proposer la prochaine étape (rendez-vous, envoi d'un élément précis). La vitesse compte énormément ici.\n\n2. **Réponse « pas maintenant »** : « pas le moment », « recontactez-moi dans 3 mois ».\n   → Action : sortir de la séquence, statut « à recontacter », noter la date de relance future. Ce n'est pas un non : c'est un oui différé.\n\n3. **Réponse négative (refus clair)** : « non merci », « pas intéressé ».\n   → Action : sortir de la séquence définitivement, statut « perdu », remercier poliment. On ne relance jamais. Respecter le non protège la réputation.\n\n4. **Absence de réponse** : silence.\n   → Action : la séquence continue jusqu'à sa dernière étape, puis statut « pas de réponse / à recontacter plus tard ». Le silence n'est ni un oui ni un non.\n\n**Le statut, colonne vivante du fichier.** Chaque réponse met à jour le statut dans le fichier de ciblage. C'est ce qui le transforme en pipeline (Module 5). Un fichier à jour = un système qui vit ; un fichier figé = un système mort.\n\n**Répondre vite aux « oui ».** Le plus grand gâchis en acquisition : un prospect qui manifeste de l'intérêt et qu'on laisse refroidir faute de réponse rapide. La règle : traiter les réponses positives en priorité, avant même de continuer à prospecter.\n\n## 2. Exemple concret\n\nAïcha (agence de com) a lancé sa séquence. En une semaine, elle reçoit :\n- Un « oui, ça m'intéresse, appelez-moi » → elle sort le prospect de la séquence, statut « intéressé », et appelle le jour même. Rendez-vous fixé.\n- Un « pas ce trimestre, revenez en janvier » → statut « à recontacter », note « relance : 5 janvier ».\n- Un « non merci, on a déjà un prestataire » → statut « perdu », réponse « merci, je reste disponible si besoin ». Aucune relance.\n- Cinq silences → la séquence suit son cours jusqu'à la clôture, puis statut « à recontacter plus tard ».\n\nGrâce à ses règles, Aïcha n'hésite jamais et ne laisse aucun prospect chaud refroidir.\n\n## 3. À retenir\n- Une réponse est un carrefour : chaque type mène à une action définie.\n- Positif → sortir, répondre vite, proposer l'étape suivante.\n- Pas maintenant → à recontacter, avec une date.\n- Négatif → perdu, remercier, ne jamais relancer.\n- Silence → la séquence continue, puis à recontacter plus tard.\n- Le statut tenu à jour transforme le fichier en pipeline vivant (Module 5).\n\n## 4. Erreurs fréquentes\n- **Laisser refroidir un « oui »** faute de réponse rapide : le pire gâchis.\n- **Relancer un « non »** : intrusif et destructeur pour la réputation.\n- **Traiter « pas maintenant » comme un refus** et perdre un oui différé.\n- **Ne pas mettre à jour le statut** : le système perd le fil.\n- **Prospecter sans traiter d'abord les réponses reçues** : on remplit le tuyau en laissant fuir l'eau.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-03-gerer-reponses.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Exercices pratiques",
+                            "type": "text",
+                            "content": "## Exercices pratiques\n\n## Exercice 01 — Concevoir ma séquence de relance\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-01-concevoir-sequence.md`\n- Compétence visée : être capable de concevoir une séquence de relance (O4.1).\n\n## Consigne\nConcevez votre séquence de relance pour vos prospects A, en précisant les 4 paramètres, et rédigez brièvement le contenu (angle) de chaque étape.\n\n## Données / contexte\nAppuyez-vous sur votre message d'approche (Module 3). Rappel du rythme courant : J0, J+3, J+7, J+12.\n\n## Ce qui est attendu\nUn tableau de séquence :\n\n| Étape | Jour | Canal | Angle / valeur ajoutée |\n|-------|------|-------|------------------------|\n| Contact | J0 | | |\n| Relance 1 | J+3 | | |\n| Relance 2 | J+7 | | |\n| Clôture | J+12 | | |\n\n- Le nombre de messages (contact + 2 à 4 relances).\n- Les délais qui laissent respirer.\n- Au moins un changement de canal.\n- La condition d'arrêt explicitement écrite.\n\n## Barème / critères de réussite\n- 4 paramètres présents (nombre, délais, canaux, arrêt) : 4 points.\n- Chaque étape apporte un angle/valeur différent : 3 points.\n- Message de clôture poli + condition d'arrêt claire (toute réponse = sortie) : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-01-concevoir-sequence.md`\n</content>\n\n---\n\n## Exercice 02 — Mettre ma séquence en place avec un outil simple\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-02-mettre-en-place.md`\n- Compétence visée : être capable de mettre en place sa séquence en semi-automatique (O4.2).\n\n## Consigne\nMettez votre séquence en place concrètement, en option A (tableur + rappels) ou option B (séquenceur), et démontrez qu'elle vous dit quoi faire chaque jour.\n\n## Données / contexte\nPartez de votre fichier de ciblage (Module 2). Ajoutez les colonnes nécessaires et préparez vos modèles de messages (Module 3).\n\n## Ce qui est attendu\n- Le fichier enrichi des colonnes « Étape » et « Prochaine action + date ».\n- Un rappel configuré (agenda/téléphone) OU un séquenceur paramétré.\n- Les modèles de messages prêts à personnaliser.\n- Une démonstration : « demain, mon système me dira de faire ceci pour ces prospects ».\n\n## Barème / critères de réussite\n- Colonnes étape/date en place : 3 points.\n- Rappel configuré ou séquenceur paramétré : 3 points.\n- Modèles prêts + démonstration du « quoi faire demain » : 4 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-02-mise-en-place.md`\n</content>\n\n---\n\n## Exercice 03 — Mes règles de gestion des réponses\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-03-gerer-reponses.md`\n- Compétence visée : être capable de gérer les réponses et de basculer un prospect au bon endroit (O4.3).\n\n## Consigne\nÉcrivez vos règles de gestion pour les 4 types de réponse, puis traitez 4 cas concrets fournis en indiquant l'action et le statut.\n\n## Données / contexte\nCas à traiter :\n1. « Oui, ça m'intéresse, appelez-moi demain. »\n2. « Pas ce trimestre, revenez en janvier. »\n3. « Non merci, on a déjà un prestataire. »\n4. Aucune réponse après le 2e message.\n\n## Ce qui est attendu\n- Une règle claire pour chacun des 4 types (positif, pas maintenant, négatif, silence) : action + statut.\n- Le traitement des 4 cas ci-dessus (action concrète + statut + éventuelle date).\n- La règle de priorité (traiter les « oui » en premier, répondre vite).\n\n## Barème / critères de réussite\n- 4 règles correctes (bon aiguillage) : 4 points.\n- 4 cas correctement traités : 4 points.\n- Règle de priorité aux réponses positives énoncée : 2 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-03-gerer-reponses.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Quiz de validation",
+                            "type": "quiz",
+                            "quiz": {
+                                "pass_score_pct": 60,
+                                "max_attempts": 3,
+                                "questions": [
+                                    {
+                                        "position": 1,
+                                        "prompt": "Combien de messages compte une bonne séquence de relance ?",
+                                        "explanation": "assez pour persévérer, pas trop pour ne pas agacer.",
+                                        "options": [
+                                            {
+                                                "label": "Un seul, sinon c'est du harcèlement",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Le premier contact + 2 à 4 relances",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Au moins 10, pour forcer la réponse",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Autant que possible, tous les jours",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 2,
+                                        "prompt": "chaque relance doit apporter un élément nouveau (angle, exemple, ressource), pas seulement « je reviens vers vous ».",
+                                        "explanation": "une relance qui apporte du neuf (conseil, exemple, angle) est lue ; « je reviens vers vous » est ignoré.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 3,
+                                        "prompt": "Quelle condition d'arrêt est correcte ?",
+                                        "explanation": "toute réponse fait sortir de la séquence ; on ne relance jamais indéfiniment ni après un refus.",
+                                        "options": [
+                                            {
+                                                "label": "On relance indéfiniment jusqu'à la vente",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "On s'arrête dès qu'un prospect répond, ou après la dernière relance prévue",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "On continue même après un refus",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "On arrête après un seul message sans réponse",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 4,
+                                        "prompt": "Que signifie automatiser « le nécessaire » ?",
+                                        "explanation": "« le nécessaire » vise la fiabilité, pas la sophistication ; on automatise le répétitif, pas la personnalisation.",
+                                        "options": [
+                                            {
+                                                "label": "Acheter l'outil le plus complet possible",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Tout robotiser, y compris la personnalisation",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Un système fiable (tableur + rappel, ou séquenceur) qui dit quoi faire chaque jour, en gardant l'écrit humain",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Ne rien automatiser et tout faire de mémoire",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 5,
+                                        "prompt": "il faut obligatoirement un séquenceur payant ; un tableur avec rappels ne peut pas faire tourner une séquence.",
+                                        "explanation": "un tableur avec colonnes étape/date, un rappel et des modèles fait très bien tourner une séquence en semi-automatique (niveau 1).",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 6,
+                                        "prompt": "Un prospect répond « oui, ça m'intéresse ». Que faire ?",
+                                        "explanation": "un « oui » se traite en priorité et sort de la relance automatique ; envoyer le contrat d'emblée est prématuré.",
+                                        "options": [
+                                            {
+                                                "label": "Le laisser dans la séquence de relance automatique",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Attendre quelques jours avant de répondre",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Le sortir de la séquence, passer son statut à « intéressé » et répondre vite",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Lui envoyer tout de suite le contrat à signer",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "is_preview": false
+                        }
+                    ]
+                },
+                {
+                    "title": "Module 05 — Piloter",
+                    "position": 5,
+                    "lessons": [
+                        {
+                            "title": "Leçon 01 — Transformer son fichier en pipeline de suivi",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de mettre en place un pipeline de suivi (étapes, statuts, prochaine action) dans un outil simple (O5.1).\n\n## Prérequis\n- Avoir un fichier de ciblage (Module 2) et des règles de statut (Module 4).\n\n## 1. La notion, simplement\n\n**Un pipeline, c'est simplement la vue de « où en est chaque prospect » dans votre parcours de vente.** Ce n'est pas un nouvel outil : c'est votre fichier de ciblage qui a pris vie grâce à la colonne Statut. Le pipeline répond à une question, à tout moment : « qui est à quelle étape, et que dois-je faire ensuite ? »\n\n**Les étapes types d'un pipeline B2B :**\n1. **À contacter** : prospect qualifié, pas encore approché.\n2. **Contacté** : premier message envoyé.\n3. **Relancé** : au moins une relance envoyée, en attente.\n4. **Intéressé** : a manifesté de l'intérêt (réponse positive).\n5. **Rendez-vous** : un échange sérieux est prévu ou a eu lieu.\n6. **Client** : a signé.\n7. **Perdu / à recontacter** : refus (perdu) ou report (à recontacter, avec date).\n\nUn prospect avance d'étape en étape. Le pipeline montre la progression et évite qu'un prospect « tombe entre les mailles ».\n\n**Les 2 colonnes qui font vivre le pipeline :**\n- **Statut** : l'étape actuelle (liste ci-dessus).\n- **Prochaine action + date** : ce qu'il faut faire ensuite, et quand. C'est la colonne la plus importante : elle transforme une liste passive en plan d'action quotidien.\n\n**La routine de pilotage.** Chaque jour (ou chaque matin) : filtrer le pipeline sur « actions du jour » (prochaine action dont la date est aujourd'hui ou dépassée), les exécuter, mettre à jour statut et prochaine action. Dix minutes suffisent quand le pipeline est propre.\n\n**Simple avant tout.** Un tableur bien tenu est un excellent pipeline. Un CRM léger peut venir plus tard, mais n'apporte rien de plus tant que le volume reste modeste. L'important n'est pas l'outil : c'est la discipline de tenir les 2 colonnes à jour.\n\n## 2. Exemple concret\n\nIbrahima (pharmacies) tient son pipeline dans le même tableur qu'au Module 2 :\n\n| Entreprise | Statut | Prochaine action | Date |\n|-----------|--------|------------------|------|\n| Pharmacie du Rond-Point | Intéressé | Appeler pour fixer un rendez-vous | aujourd'hui |\n| Pharmacie des Parcelles | Relancé | Relance 2 (LinkedIn) | J+2 |\n| Pharmacie Keur Massar | Rendez-vous | Préparer la démo | vendredi |\n| Pharmacie de la Gare | À recontacter | Relancer (report) | janvier |\n\nChaque matin, Ibrahima filtre sur la date du jour : il voit immédiatement qu'il doit appeler la Pharmacie du Rond-Point aujourd'hui. Rien ne se perd, aucun prospect chaud n'est oublié. Son fichier est devenu un pipeline vivant.\n\n## 3. À retenir\n- Le pipeline = la vue « où en est chaque prospect », née de la colonne Statut du fichier.\n- Étapes types : à contacter, contacté, relancé, intéressé, rendez-vous, client, perdu/à recontacter.\n- 2 colonnes vivantes : Statut et Prochaine action + date.\n- Routine quotidienne : filtrer les actions du jour, exécuter, mettre à jour.\n- Un tableur discipliné suffit : l'outil compte moins que la mise à jour.\n\n## 4. Erreurs fréquentes\n- **Créer un pipeline séparé** du fichier de ciblage au lieu de le faire évoluer.\n- **Négliger la colonne Prochaine action** : sans elle, le pipeline ne dit pas quoi faire.\n- **Ne pas mettre à jour** après chaque échange : le pipeline devient faux.\n- **Trop d'étapes** : rester simple, 6 ou 7 suffisent.\n- **Chercher le CRM parfait** avant d'avoir la discipline de tenir 2 colonnes.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-01-pipeline-suivi.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 02 — Lire ses indicateurs clés pour ajuster",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de lire quelques indicateurs clés (contacts, réponses, rendez-vous) pour ajuster son système (O5.2).\n\n## Prérequis\n- Avoir un pipeline qui se remplit (leçon 01).\n\n## 1. La notion, simplement\n\n**On ne pilote bien que ce qu'on mesure, mais quelques chiffres suffisent.** Pas besoin de tableau de bord complexe : 4 indicateurs, les mêmes qu'au diagnostic du Module 1, disent où votre système fonctionne et où il coince.\n\n**Les 4 indicateurs et leurs taux :**\n1. **Contacts** : combien de prospects approchés sur la période.\n2. **Réponses** : combien ont répondu (positif, négatif ou report).\n3. **Rendez-vous** : combien ont mené à un échange sérieux.\n4. **Clients** : combien ont signé.\n\nEntre chaque étape, on lit un **taux de passage** :\n- Taux de réponse = réponses / contacts.\n- Taux de rendez-vous = rendez-vous / réponses.\n- Taux de conversion = clients / rendez-vous.\n\n**Lire, c'est repérer la plus grande chute pour agir sur la bonne brique.** Comme au Module 1, le blocage se voit à l'endroit où le taux s'effondre :\n- **Peu de contacts** → problème de volume ou de ciblage → agir sur la brique Cible (Module 2).\n- **Beaucoup de contacts, peu de réponses** → problème de message ou de cible → agir sur la brique Message (Module 3).\n- **Réponses mais peu de rendez-vous** → problème d'accroche ou de demande → ajuster la demande du message ou la relance (Modules 3 et 4).\n- **Rendez-vous mais peu de clients** → problème d'offre, de prix ou de suivi → travailler l'offre et le closing (hors périmètre acquisition, mais à signaler).\n\n**La règle d'ajustement : une seule chose à la fois.** On change un élément (l'accroche, la cible, le canal), on observe l'effet sur le taux concerné, puis on ajuste à nouveau. Changer tout en même temps empêche de savoir ce qui a marché.\n\n**Des repères, pas des promesses.** En prospection à froid B2B, il est normal que la plupart des contacts ne répondent pas : quelques réponses sur des dizaines de contacts est un résultat courant. Les chiffres exacts dépendent de votre marché : ce qui compte est de suivre l'évolution de vos propres taux dans le temps, pas de viser un chiffre absolu.\n\n## 2. Exemple concret\n\nAprès deux semaines, Aïcha (agence de com) lit son pipeline :\n- Contacts : 40. Réponses : 12 (taux de réponse 30 %). Rendez-vous : 3. Clients : 1.\n- Lecture : le taux de réponse est correct (le message et la cible fonctionnent). Mais 3 rendez-vous seulement sur 12 réponses : beaucoup de réponses n'aboutissent pas à un échange.\n- Décision : Aïcha ajuste la **demande** de son message et de sa relance (rendre la prise de rendez-vous plus simple et plus concrète), sans toucher à l'accroche qui marche. Elle mesurera l'effet sur le taux de rendez-vous la semaine suivante.\n\nUn seul ajustement, ciblé sur la bonne étape, mesurable. C'est cela, piloter.\n\n## 3. À retenir\n- 4 indicateurs suffisent : contacts, réponses, rendez-vous, clients.\n- 3 taux de passage montrent où ça coince (réponse, rendez-vous, conversion).\n- La plus grande chute désigne la brique à améliorer.\n- Un seul ajustement à la fois, puis on mesure l'effet.\n- On suit l'évolution de ses propres taux, sans viser un chiffre absolu miracle.\n\n## 4. Erreurs fréquentes\n- **Ne rien mesurer** et piloter au ressenti.\n- **Vouloir un tableau de bord complexe** au lieu de 4 chiffres tenus à jour.\n- **Changer plusieurs éléments à la fois** : impossible de savoir ce qui a eu de l'effet.\n- **Se décourager sur un chiffre absolu** : en prospection à froid, beaucoup de non est normal.\n- **Confondre activité et résultat** : « j'ai beaucoup travaillé » n'est pas un taux.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-02-indicateurs.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Leçon 03 — Écrire son plan d'action à 30 jours",
+                            "type": "text",
+                            "content": "## Objectif de la leçon\nÀ la fin de cette leçon, l'apprenant sera capable de rédiger un plan d'action à 30 jours pour faire tourner le système sans le formateur (O5.3).\n\n## Prérequis\n- Avoir son système complet (Modules 1 à 4) et son pipeline (leçon 01).\n\n## 1. La notion, simplement\n\n**Le meilleur système ne vaut rien s'il n'est pas activé dès le lendemain.** Le plan à 30 jours transforme la journée de formation en habitude durable. Il répond à : « concrètement, que fais-je chaque semaine pour faire tourner mon acquisition ? »\n\n**Un bon plan à 30 jours est réaliste et rythmé.** Il tient compte de votre temps disponible : mieux vaut 3 heures par semaine tenues que 10 heures prévues et jamais faites. La régularité bat l'intensité.\n\n**La structure : un objectif clair + un rythme hebdomadaire + une routine quotidienne.**\n\n**a) L'objectif à 30 jours** : un but simple et mesurable, centré sur l'activité (que vous contrôlez), pas seulement sur le résultat (que vous ne contrôlez pas entièrement). Exemple : « contacter 60 prospects et obtenir 5 rendez-vous » plutôt que « signer 10 clients ».\n\n**b) Le rythme hebdomadaire** (exemple d'un plan sur 4 semaines) :\n- **Semaine 1** : finaliser la liste (50 prospects A/B), lancer les premiers contacts (J0).\n- **Semaine 2** : poursuivre les contacts, démarrer les relances, traiter les premières réponses.\n- **Semaine 3** : maintenir le flux de contacts + relances, tenir les premiers rendez-vous.\n- **Semaine 4** : bilan des indicateurs, premier ajustement, réalimenter la liste.\n\n**c) La routine quotidienne** (le socle) : chaque jour ouvré, un créneau court et fixe :\n- Filtrer le pipeline sur les actions du jour.\n- Envoyer les nouveaux contacts et les relances prévues.\n- Traiter les réponses reçues (priorité aux « oui »).\n- Mettre à jour statuts et prochaines actions.\n\n**Bloquer le temps dans l'agenda.** Un plan qui n'est pas dans l'agenda n'existe pas. On réserve les créneaux comme des rendez-vous avec soi-même.\n\n**Prévoir le point de bilan.** À J+30, on relit ses 4 indicateurs (leçon 02), on identifie la brique à améliorer, et on repart pour 30 jours. L'acquisition n'est pas un sprint : c'est une routine qui s'améliore.\n\n## 2. Exemple concret\n\nMoussa (conseil en gestion) écrit son plan à 30 jours, avec 4 heures par semaine disponibles :\n- **Objectif** : contacter 60 PME de distribution, obtenir 6 rendez-vous.\n- **Rythme** : 15 nouveaux contacts par semaine + relances de la séquence.\n- **Routine quotidienne** : 30 minutes chaque matin (actions du jour du pipeline).\n- **Créneaux agenda** : lundi et jeudi, 9 h à 11 h, bloqués « acquisition ».\n- **Bilan J+30** : relire les taux, ajuster l'élément le plus faible, réalimenter la liste.\n\nMoussa repart de la formation avec un plan qu'il peut suivre seul. Il sait exactement quoi faire lundi matin.\n\n## 3. À retenir\n- Un système doit être activé dès le lendemain : le plan 30 jours sert à ça.\n- Réaliste et rythmé : la régularité bat l'intensité.\n- Structure : objectif d'activité mesurable + rythme hebdomadaire + routine quotidienne.\n- Bloquer les créneaux dans l'agenda, sinon le plan n'existe pas.\n- Prévoir le bilan à J+30 pour ajuster et repartir.\n\n## 4. Erreurs fréquentes\n- **Plan irréaliste** (10 heures par semaine jamais tenues).\n- **Objectif uniquement sur le résultat** (« signer X clients ») sans objectif d'activité maîtrisable.\n- **Ne pas bloquer de créneau** dans l'agenda : le plan reste théorique.\n- **Oublier la routine quotidienne**, socle de la régularité.\n- **Ne pas prévoir de bilan** : on ne s'améliore pas, on répète les mêmes erreurs.\n\n## 5. Pour s'entraîner\n- Exercice rattaché : `../exercices/exercice-03-plan-30-jours.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Exercices pratiques",
+                            "type": "text",
+                            "content": "## Exercices pratiques\n\n## Exercice 01 — Monter mon pipeline de suivi\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-01-pipeline-suivi.md`\n- Compétence visée : être capable de mettre en place un pipeline de suivi (O5.1).\n\n## Consigne\nÀ partir de votre fichier de ciblage, mettez en place le pipeline : définissez la liste des statuts, remplissez la colonne Prochaine action + date pour vos prospects actifs, et décrivez votre routine quotidienne.\n\n## Données / contexte\nÉtapes types : à contacter, contacté, relancé, intéressé, rendez-vous, client, perdu/à recontacter.\n\n## Ce qui est attendu\n- La liste de vos statuts (6 ou 7, adaptés à votre activité).\n- La colonne Prochaine action + date renseignée pour au moins 10 prospects.\n- La description de votre routine quotidienne (quand, combien de temps, quelles actions).\n- Une démonstration du filtre « actions du jour ».\n\n## Barème / critères de réussite\n- Statuts définis (simples, 6-7) : 3 points.\n- Prochaine action + date pour ≥ 10 prospects : 4 points.\n- Routine quotidienne décrite + filtre actions du jour : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-01-pipeline-suivi.md`\n</content>\n\n---\n\n## Exercice 02 — Calculer et lire mes 4 indicateurs\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-02-indicateurs-cles.md`\n- Compétence visée : être capable de lire ses indicateurs clés pour ajuster (O5.2).\n\n## Consigne\nÀ partir des données fournies (ou des vôtres si vous en avez), calculez les 3 taux de passage, identifiez l'étape qui bloque le plus, et proposez un seul ajustement.\n\n## Données / contexte\nDonnées d'un participant fictif sur 2 semaines : Contacts 50, Réponses 15, Rendez-vous 2, Clients 1.\n(Si vous avez vos propres chiffres, utilisez-les et indiquez-le.)\n\n## Ce qui est attendu\n- Les 3 taux : taux de réponse, taux de rendez-vous, taux de conversion.\n- L'étape où la chute est la plus forte.\n- Un seul ajustement proposé, relié à la bonne brique (Cible, Message, Séquence…).\n- La règle « un ajustement à la fois, puis on mesure » énoncée.\n\n## Barème / critères de réussite\n- 3 taux calculés correctement : 4 points.\n- Étape de blocage bien identifiée : 3 points.\n- Un ajustement ciblé + règle « une chose à la fois » : 3 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-02-indicateurs.md`\n</content>\n\n---\n\n## Exercice 03 — Rédiger mon plan d'action à 30 jours\n\n## Notion travaillée\n- Leçon rattachée : `../cours/lecon-03-plan-30-jours.md`\n- Compétence visée : être capable de rédiger un plan d'action à 30 jours (O5.3).\n\n## Consigne\nRédigez votre plan d'action à 30 jours : un objectif d'activité mesurable, un rythme hebdomadaire, une routine quotidienne, et vos créneaux bloqués dans l'agenda.\n\n## Données / contexte\nPartez de votre temps réellement disponible chaque semaine. Rappel : la régularité bat l'intensité ; l'objectif porte sur l'activité que vous contrôlez.\n\n## Ce qui est attendu\n- Un objectif à 30 jours mesurable et centré activité (ex. « contacter X prospects, obtenir Y rendez-vous »).\n- Un rythme hebdomadaire (semaines 1 à 4).\n- Une routine quotidienne (créneau, durée, actions).\n- Les créneaux précis bloqués dans l'agenda.\n- La date et le contenu du bilan à J+30.\n\n## Barème / critères de réussite\n- Objectif mesurable et centré activité : 3 points.\n- Rythme hebdomadaire réaliste (cohérent avec le temps disponible) : 3 points.\n- Routine quotidienne + créneaux agenda : 2 points.\n- Bilan J+30 prévu : 2 points.\n- Total : 10 points. Réussite à partir de 6/10.\n\n> Corrigé : `corriges/corrige-03-plan-30-jours.md`\n</content>",
+                            "is_preview": false
+                        },
+                        {
+                            "title": "Quiz de validation",
+                            "type": "quiz",
+                            "quiz": {
+                                "pass_score_pct": 60,
+                                "max_attempts": 3,
+                                "questions": [
+                                    {
+                                        "position": 1,
+                                        "prompt": "Qu'est-ce qu'un pipeline de suivi ?",
+                                        "explanation": "le pipeline n'est pas un nouvel outil ni un document séparé ; c'est le fichier de ciblage qui prend vie.",
+                                        "options": [
+                                            {
+                                                "label": "Un logiciel payant obligatoire",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "La vue « où en est chaque prospect », née de la colonne Statut du fichier",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Un document séparé du fichier de ciblage",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Un tableau de chiffres de vente",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 2,
+                                        "prompt": "Quelle est la colonne la plus importante pour faire vivre le pipeline ?",
+                                        "explanation": "c'est elle qui transforme une liste passive en plan d'action quotidien.",
+                                        "options": [
+                                            {
+                                                "label": "Le nom de l'entreprise",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "La couleur de la ligne",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Prochaine action + date",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Le secteur d'activité",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 3,
+                                        "prompt": "pour piloter son acquisition, il faut un tableau de bord complexe avec des dizaines d'indicateurs.",
+                                        "explanation": "4 indicateurs (contacts, réponses, rendez-vous, clients) et 3 taux suffisent pour piloter.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 4,
+                                        "prompt": "Un participant a 50 contacts, 15 réponses, 2 rendez-vous, 1 client. Où agir en priorité ?",
+                                        "explanation": "15 réponses sur 50 contacts (30 %) montrent un bon message ; la chute est 15 réponses → 2 rendez-vous. C'est la demande/relance qu'il faut ajuster.",
+                                        "options": [
+                                            {
+                                                "label": "Sur le nombre de contacts",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Sur le message d'approche (taux de réponse)",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Sur le passage réponses → rendez-vous (la demande / la relance)",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "Sur le prix",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 5,
+                                        "prompt": "quand on ajuste son système, il vaut mieux changer plusieurs éléments à la fois pour aller plus vite.",
+                                        "explanation": "on change un seul élément à la fois, sinon on ne sait pas ce qui a produit l'effet.",
+                                        "options": [
+                                            {
+                                                "label": "Vrai",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "Faux",
+                                                "is_correct": true
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "position": 6,
+                                        "prompt": "Quel objectif à 30 jours est le mieux formulé ?",
+                                        "explanation": "objectif d'activité, mesurable et sous votre contrôle, contrairement à un résultat seul ou à un vœu vague.",
+                                        "options": [
+                                            {
+                                                "label": "« Devenir le leader du marché »",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« Signer 20 clients » (résultat seul)",
+                                                "is_correct": false
+                                            },
+                                            {
+                                                "label": "« Contacter 60 prospects et obtenir 6 rendez-vous » (activité mesurable)",
+                                                "is_correct": true
+                                            },
+                                            {
+                                                "label": "« Travailler dur sur l'acquisition »",
+                                                "is_correct": false
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "is_preview": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
