@@ -34,7 +34,7 @@ return [
     // Coordonnees affichees.
     'email' => env('BRAND_EMAIL', 'contact@opti-leads.com'),
     'city' => env('BRAND_CITY', 'Dakar, Sénégal'),
-    'region' => env('BRAND_REGION', 'Afrique de l’Ouest'),
+    'region' => env('BRAND_REGION', 'Zone UEMOA francophone'),
 
     /*
      * Logo. Vide => embleme colore + nom en toutes lettres (aucun fichier a produire).

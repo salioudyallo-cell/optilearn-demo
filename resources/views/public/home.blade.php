@@ -1,5 +1,5 @@
 <x-layouts.public :title="config('brand.name').' — '.__('Se former aux métiers du digital en Afrique de l’Ouest')"
-    :metaDescription="__('Formations en marketing digital, SEO, publicité en ligne, IA et génération de leads. Pour les équipes et les indépendants au Sénégal, en Côte d’Ivoire et au Mali.')">
+    :metaDescription="__('Formations en marketing digital, SEO, publicité en ligne, IA et génération de leads. Pour les équipes et les indépendants dans la zone UEMOA francophone (Sénégal, Mali, Burkina Faso, Côte d’Ivoire, Bénin, Togo, Niger).')">
 
     {{-- ═══════════ HERO ═══════════ --}}
     <section class="relative overflow-hidden bg-hero-mesh">
@@ -77,7 +77,7 @@
             @foreach ([
                 ['value' => '9', 'label' => __('domaines couverts')],
                 ['value' => '100 %', 'label' => __('en ligne, mobile-first')],
-                ['value' => '3', 'label' => __('pays d’Afrique de l’Ouest')],
+                ['value' => 'UEMOA', 'label' => __('zone francophone')],
                 ['value' => 'À vie', 'label' => __('accès à vos formations')],
             ] as $stat)
                 <div>
